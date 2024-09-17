@@ -1,0 +1,193 @@
+[
+    {
+        "id": 41,
+        "company_name": "SIMGO POULTRIES HUB",
+        "registration_number": "7645429",
+        "category": "business",
+        "registered_address": "NO.19 SHOTOMI STREET OKE ITUNU, IBADAN, OYO",
+        "incorporation_date": "JUL 3, 2024",
+        "main_object": "POULTRY SERVICES, FARMING AND GENERAL CONTRACTS",
+        "proprietors": [
+            {
+                "name": "AKINTOLA OLUFEMI ABIODUN",
+                "address": "SHOTOMI STREET OKE ITUNU, IBADAN, OYO"
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "company_name": "PEARL DYNAMIC AGRIC SOLUTIONS",
+        "registration_number": "7660960",
+        "category": "business",
+        "registered_address": "NO. 19 SHOTOMI STREET OKE ITUNU, IBADAN, OYO",
+        "incorporation_date": "JUL 7, 2024",
+        "main_object": "AGRICULTURAL SERVICES, FARMING, FARM PRODUCE, AGRO-ALLIED AND GENERAL CONTRACTS",
+        "proprietors": [
+            {
+                "name": "AKINTOLA OLUFEMI ABIODUN",
+                "address": "SHOTOMI STREET OKE ITUNU, IBADAN, OYO"
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "company_name": "ENZO AGROTECH MATERIALS",
+        "registration_number": "7668050",
+        "category": "business",
+        "registered_address": "NO. 19 SHOTOMI STREET OKE ITUNU, IBADAN, OYO",
+        "incorporation_date": "JUL 9, 2024",
+        "main_object": "SALE OF AGRICULTURAL TOOLS, MACHINE, ALLIED PRODUCTS, FARM PRODUCE AND GENERAL CONTRACTS",
+        "proprietors": [
+            {
+                "name": "AKINTOLA OLUFEMI ABIODUN",
+                "address": "SHOTOMI STREET OKE ITUNU, IBADAN, OYO"
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "company_name": "EMMYNET SERIES INTERIORS",
+        "registration_number": "2284011",
+        "category": "business",
+        "registered_address": "48, TEJUOSHOSTREET, TEJUOSHO, LAGOS.",
+        "incorporation_date": "DEC 13, 2013",
+        "main_object": "GENERAL Merchants & Traders",
+        "proprietors": [
+            {
+                "name": "Nwamama Emeka Jovita",
+                "address": "48, TEJUOSHOSTREET, TEJUOSHO, LAGOS."
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "company_name": "SAS OF LAGOS LIFESTYLE LIMITED",
+        "registration_number": "7416627",
+        "category": "company",
+        "registered_address": "BISOLA DUROSINMI ETTI DRIVE, LEKKI, LAGOS",
+        "incorporation_date": "MAR 25, 2024",
+        "main_object": "To carry on the businesses of entertainment promoters, sports promoters, event managers and representatives in all or any spheres of entertainment and sport.",
+        "share_capital": "1m",
+        "current_share_capital": null,
+        "allotted_share_capital": null,
+        "directors": [
+            {
+                "name": "SANNI SHEDRACH ADAVOGU",
+                "address": "ADEBISI OMOTOLA CLOSE, VICTORIA ISLAND, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "SHEDRACH ADAVOGU SANNI",
+                "shares": "10000 ORDINARY SHARES"
+            }
+        ],
+        "company_sec": null
+    },
+    {
+        "id": 46,
+        "company_name": "KORLARDE CONTRACTORS",
+        "registration_number": "3360927",
+        "category": "business",
+        "registered_address": "57 ALHAJI AMOO STREET, OJOTA, LAGOS",
+        "incorporation_date": "MAY 4, 2021",
+        "main_object": "CONSTRUCTION SERVICES",
+        "proprietors": [
+            {
+                "name": "OLADAPO OLASIMBO",
+                "address": "57 ALHAJI AMOO STREET, OJOTA, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "company_name": "BRUN CHEMICAL RESOURCES",
+        "registration_number": "7337228",
+        "category": "business",
+        "registered_address": "99 OWODUNNI STREET, COKER ORILE, AJEROMI IFELODUN, LAGOS",
+        "incorporation_date": "FEB 7, 2024",
+        "main_object": "SUPPLY AND DISTRIBUTION OF CHEMICAL MATERIALS, KITCHEN UTENSILS, RENDERING OF FASHION DESIGN SERVICES, GENERAL CONTRACT",
+        "proprietors": [
+            {
+                "name": "AWE OLAITAN OMOWUNMI",
+                "address": "OWODUNNI STREET, COKER ORILE, AJEROMI IFELODUN, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "company_name": "BEN GOOD MAN SUPERMARKET LTD",
+        "registration_number": "1454453",
+        "category": "company",
+        "registered_address": "NO.2, KAYODE STREET, DOUBLE POWER LINE EJIGBO, LAGOS",
+        "incorporation_date": "NOV 20, 2017",
+        "main_object": "OPERATE SUPERMARKETS",
+        "share_capital": "1m",
+        "current_share_capital": null,
+        "allotted_share_capital": null,
+        "directors": [
+            {
+                "name": "NWANKWO MARY ANN CHIAMAKA",
+                "address": "NO.2, KAYODE STREET, DOUBLE POWER LINE EJIGBO, LAGOS"
+            },
+            {
+                "name": "NWANKWO ODINAKA BENNETH",
+                "address": "NO.2, KAYODE STREET, DOUBLE POWER LINE EJIGBO, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "ODINAKA BENNETH NWANKWO",
+                "shares": "500000 Ordinary SHARES"
+            },
+            {
+                "name": "MARY ANN BENNETH NWANKWO",
+                "shares": "500000 Ordinary SHARES"
+            }
+        ],
+        "company_sec": {
+            "name": "NWANKWO ODINAKA BENNETH",
+            "address": "NO.2, KAYODE STREET, DOUBLE POWER LINE EJIGBO, LAGOS"
+        }
+    },
+    {
+        "id": 49,
+        "company_name": "OTG CONTRACTORS LIMITED",
+        "registration_number": "7700831",
+        "category": "company",
+        "registered_address": "LEKKI-EPE EXPRESSWAY, ALAHUN BUS STOP, LAGOS",
+        "incorporation_date": "JUL 15, 2024",
+        "main_object": "SUPPLY, SALE AND DISTRIBUTION OF BUILDING MATERIALS",
+        "share_capital": "1m",
+        "current_share_capital": null,
+        "allotted_share_capital": null,
+        "directors": [
+            {
+                "name": "OJO OLUWATOSIN OMOJOWOLO",
+                "address": "DAVISVILLE NEXT GENERATION ESTATE, SUNSHINE GARDENS ESTATE, SANGOTEDO, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "OLUWATOSIN OMOJOWOLO OJO",
+                "shares": "1000000 ORDINARY SHARES"
+            }
+        ],
+        "company_sec": null
+    },
+    {
+        "id": 50,
+        "company_name": "SOSOROBIA PREMIUM SERVICES",
+        "registration_number": "3753829",
+        "category": "business",
+        "registered_address": "3 EMMANUEL TOMBRA, Ajah/Oke Ire Nla, LAGOS",
+        "incorporation_date": "SEP 14, 2022",
+        "main_object": "GENERAL SUPPLY OF AGRO PRODUCTS",
+        "proprietors": [
+            {
+                "name": "ASAMA EMMANUEL",
+                "address": "EMMANUEL TOMBRA, AJAH/OKE IRE NLA, LAGOS"
+            }
+        ]
+    }
+]

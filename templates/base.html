@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="file:///C:/Users/Eformeh%20Oyievesho/Desktop/python%20job/python%20projects/zell/static/css/styles.css">
+</head>
+<body>
+    {% include 'header.html' %}
+    
+    <section class="content-section">
+        {% block content %}
+        <!-- Dynamic content goes here -->
+        {% endblock %}
+    </section>
+
+    {% include 'footer.html' %}
+</body>
+
+</html>

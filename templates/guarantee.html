@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+{% block content %}
+    <p><strong>Date:</strong> {{ search_date }}</p>
+    <p>To: The Branch Service Manager</p>
+    <p>Providus Bank Plc</p>
+    <p>{{ bank_address }}</p>
+
+    <p><strong>Dear Sir/Madam,</strong></p>
+    
+    <div style="border-bottom: 1px solid #F1F1F5; margin-bottom: 10px;">
+        <p><strong class="underline">SEARCH REPORT ON {{ company_name }}</strong></p>
+    </div>
+    
+    <p>The above subject refers.</p>
+    <p>Kindly find below the search report conducted on the referenced company:</p>
+
+    <table>
+        <tr>
+            <td><strong>Date of Search:</strong></td>
+            <td>{{ search_date }}</td>
+        </tr>
+        <tr>
+            <td><strong>Name of Company:</strong></td>
+            <td>{{ company_name }}</td>
+        </tr>
+        <tr>
+            <td><strong>Type of Company:</strong></td>
+            <td>Limited by Guarantee</td>
+        </tr>
+        <tr>
+            <td><strong>Registration Number:</strong></td>
+            <td>{{ registration_number }}</td>
+        </tr>
+        <tr>
+            <td><strong>Date of Incorporation:</strong></td>
+            <td>{{ incorporation_date }}</td>
+        </tr>
+        <tr>
+            <td><strong>Main Object:</strong></td>
+            <td>{{ main_object }}</td>
+        </tr>
+        <tr>
+            <td><strong>Registered Address:</strong></td>
+            <td>RC {{ registered_address }}</td>
+        </tr>
+        <tr>
+            <td><strong>Directors at Incorporation:</strong></td>
+            <td>{{ directors }}</td>
+        </tr>
+        <tr>
+            <td><strong>Current Directors:</strong></td>
+            <td>{{ directors }}</td>
+        </tr>
+        <tr>
+            <td><strong>Guarantors:</strong></td>
+            <td>{{ directors }}</td>
+        </tr>
+        <tr>
+            <td><strong>Company Secretary:</strong></td>
+            <td>{{ company_sec }}</td>
+        </tr>
+        <tr>
+            <td><strong>Annual Returns:</strong></td>
+            <td>Nil</td>
+        </tr>
+        <tr>
+            <td><strong>Borrowing Powers:</strong></td>
+            <td>Paid</td>
+        </tr>
+        <tr>
+            <td><strong>Debentures:</strong></td>
+            <td>Paid</td>
+        </tr>
+        <tr>
+            <td><strong>Comment:</strong></td>
+            <td>Nil</td>
+        </tr>
+        <tr>
+            <td><strong>Remarks:</strong></td>
+            <td>The Company is duly registered</td>
+        </tr>
+    </table>
+{% endblock %}

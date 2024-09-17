@@ -1,0 +1,57 @@
+Please format the following data as JSON:
+
+Format: JSON
+
+Category: Specify whether the entity is a business  company, partnership, guarantee and trustee.
+
+Fields:
+
+id
+company_name
+registration_number
+category (business/company/partnership/guarantee/trustee)
+registered_address
+incorporation_date
+main_object
+share_capital(for company)
+current_share_capital(for company)
+allotted_share_capital(for company)
+proprietors (for business) or directors (for company and guarantee) or partners (for partnership) or trustees (for trustee)
+company_sec(for company and guarantee)
+trustee_sec(for trustees)
+shareholders(for company)
+
+trustees(for trustee)
+guarantors(for guarantee)
+Details:
+
+For business , include proprietors as an array of objects with name and address.
+For company, include directors as an array of objects with name and address as well as shareholders as an array of objects with name and shares.
+for guarantee, include directors as an array of objects with name and address
+for partnership, include partners as an array of objects with name and address
+For trustee, include trustees as an array of objects with name and address
+Here is the data:
+
+Business Name Example:
+
+ID: 41
+Company Name: SIMGO POULTRIES HUB
+Registration Number: 7645429
+Category: business name
+Registered Address: NO.19 SHOTOMI STREET OKE ITUNU, IBADAN, OYO
+Incorporation Date: JUL 3, 2024
+Main Object: POULTRY SERVICES, FARMING AND GENERAL CONTRACTS
+Proprietors:
+Name: AKINTOLA OLUFEMI ABIODUN Address: SHOTOMI STREET OKE ITUNU, IBADAN, OYO
+Company Example:
+
+ID: 45
+Company Name: SAS OF LAGOS LIFESTYLE LIMITED
+Registration Number: 7416627
+Category: company
+Registered Address: BISOLA DUROSINMI ETTI DRIVE, LEKKI, LAGOS
+Incorporation Date: MAR 25, 2024
+Main Object: To carry on the businesses of entertainment promoters, sports promoters, event managers and representatives in all or any spheres of entertainment and sport.
+
+Directors:
+Name: SANNI SHEDRACH ADAVOGU Address: ADEBISI OMOTOLA CLOSE, VICTORIA ISLAND, LAGOS

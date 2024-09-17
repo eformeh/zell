@@ -1,0 +1,61 @@
+body {
+    font-family: 'Cambria', serif;
+    line-height: 1.5;
+    margin: 20px;
+}
+
+h1 {
+    font-family: 'Algerian', sans-serif;
+    font-size: 36px;
+    color: #00B050;
+    text-align: center;
+}
+
+h2 {
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Cambria', serif;
+    color: black;
+}
+
+.company-details {
+    text-align: right;
+    font-size: 12px;
+}
+
+.contact-info {
+    font-size: 12px;
+}
+
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 8px;
+    border: none;
+}
+
+.content-section {
+    margin-top: 20px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+    height: auto;
+}
+
+.signature {
+    display: block;
+    width: 100px;
+    height: auto;
+    margin-top: 20px;
+}

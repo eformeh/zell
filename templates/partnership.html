@@ -1,9 +1,12 @@
 {% extends "base.html" %}
 {% block content %}
-    <p><strong>Date:</strong> {{ search_date }}</p>
+<hr>
+    <p><strong>Date:</strong> 17th September 2024<</p>
     <p>To: The Branch Service Manager</p>
     <p>Providus Bank Plc</p>
-    <p>{{ bank_address }}</p>
+    <p>724 Adetokunbo Ademola Street</p>
+    <p>Victoria Island</p>
+    <p>Lagos State</p>
 
     <p><strong>Dear Sir/Madam,</strong></p>
     
@@ -45,11 +48,26 @@
         </tr>
         <tr>
             <td><strong>Partners:</strong></td>
-            <td>{{ partners }}</td>
+            <br>
+            <td>
+                <ul>
+                    {% for partner in partners %}
+                        <li>{{ partner.name }} - {{ partner.address }}</li>
+                    
+                    {% endfor %}
+                </ul>
+            </td>
         </tr>
         <tr>
             <td><strong>Contributors:</strong></td>
-            <td>{{ partners }}</td>
+            <td>
+                <ul>
+                    {% for partner in partners %}
+                        <li>{{ partner.name }} - {{ partner.address }}</li>
+                    
+                    {% endfor %}
+                </ul>
+            </td>
         </tr>
         <tr>
             <td><strong>Annual Returns:</strong></td>

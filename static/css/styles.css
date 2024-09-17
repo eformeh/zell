@@ -6,9 +6,10 @@ body {
 
 h1 {
     font-family: 'Algerian', sans-serif;
-    font-size: 36px;
-    color: #00B050;
+    font-size: 39px;
+    color: #00A038;
     text-align: center;
+    margin-bottom: 0;
 }
 
 h2 {
@@ -16,8 +17,12 @@ h2 {
     text-align: center;
     font-family: 'Cambria', serif;
     color: black;
+    margin-top: 0;
 }
-
+h4 {
+    font-family: 'Algerian', sans-serif;
+    color: #00A038;
+}
 .company-details {
     text-align: right;
     font-size: 12px;
@@ -49,7 +54,7 @@ td {
 .logo {
     display: block;
     margin: 0 auto;
-    width: 60px;
+    width: 60px; /* Increased size for better visibility */
     height: auto;
 }
 

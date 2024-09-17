@@ -6,15 +6,12 @@ OUTPUT_PDF_DIR = 'reports/pdf/'
 # PDFKit options
 PDFKIT_OPTIONS = {
     'page-size': 'A4',
-    'enable-local-file-access': '',
+    'enable-local-file-access': '',  # Allows local file access (CSS, images)
     'encoding': 'UTF-8',
-     'no-outline': None,
-    'no-images': '',
-    'disable-javascript': '',
-    'no-stop-slow-scripts': '',
-    'no-background': '',
+    'no-outline': None,
+    'disable-javascript': '',  # You can disable this if you're not using JavaScript in HTML
     'custom-header': [
         ('Accept-Encoding', 'gzip')
     ],
-    'debug-javascript': ''
+    'debug-javascript': ''  # Optional, helps debug JavaScript issues
 }

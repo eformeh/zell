@@ -6,15 +6,17 @@ body {
 
 /* Header section */
 .header-content {
-    display: flex;
+    display:flex;
     align-items: center; /* Align logo and text vertically */
     justify-content: center; /* Center the content horizontally */
     gap: 20px; /* Space between logo and text */
     margin-bottom: 10px;
+    padding-left: 20%;
 }
 
 .logo {
-    display: inline-block;
+    position: relative;
+    display:flex;
     width: 60px; /* Adjusted size for better alignment */
     height: auto;
     margin-right: 10px; /* Add space between logo and text */
@@ -22,31 +24,44 @@ body {
 
 .company-info h1 {
     font-family: 'Algerian', serif;
-    font-size: 49px;
-    color: #00A038;
+    font-size: 60px;
+    text-decoration: solid;
+    color: #00b050;
     margin: 0;
+    text-shadow: 
+    -2px -2px 0 white, 
+     2px -2px 0 white,
+    -2px  2px 0 white, 
+     2px  2px 0 white;
 }
 
-.company-info h2 {
-    font-size: 15px;
+.company-info p {
+    font-size: 18px;
     color: black;
     margin: 0;
 }
-
+.letter-address p {
+    margin: 0;
+}
 /* Company contact details (right-aligned) */
 .company-details {
     text-align: right;
-    font-size: 12px;
+    font-size: 15px;
     font-family: 'Cambria', serif;
 }
+.company-details p{
+margin: 0;
+}
+
 .company-details h4{
     color: #00A038;
+    margin: 0;
 }
 
 /* Contact information (left-aligned) */
 .contact-info {
     text-align: left;
-    font-size: 12px;
+    font-size: 16px;
     font-family: 'Cambria', serif;
     color: black;
 }
@@ -67,7 +82,7 @@ table {
     width: 100%;
     margin: 20px 0;
     border-collapse: collapse;
-    border-spacing: 7px 10px; 
+    border-spacing: 6px 9px; 
 }
 
 td {

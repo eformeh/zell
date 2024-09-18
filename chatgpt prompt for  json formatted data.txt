@@ -14,8 +14,6 @@ registered_address
 incorporation_date
 main_object
 share_capital(for company)
-current_share_capital(for company)
-allotted_share_capital(for company)
 proprietors (for business) or directors (for company and guarantee) or partners (for partnership) or trustees (for trustee)
 company_sec(for company and guarantee)
 trustee_sec(for trustees)
@@ -26,7 +24,7 @@ guarantors(for guarantee)
 Details:
 
 For business , include proprietors as an array of objects with name and address.
-For company, include directors as an array of objects with name and address as well as shareholders as an array of objects with name and shares.
+For company, include directors as an array of objects with name and address as well as shareholders as an array of objects with name and shares(note that for the shares and share_capital you are to pick only the number and put them in numeric form e.g 1m ceomes 1,000,000  ).
 for guarantee, include directors as an array of objects with name and address
 for partnership, include partners as an array of objects with name and address
 For trustee, include trustees as an array of objects with name and address
@@ -55,3 +53,48 @@ Main Object: To carry on the businesses of entertainment promoters, sports promo
 
 Directors:
 Name: SANNI SHEDRACH ADAVOGU Address: ADEBISI OMOTOLA CLOSE, VICTORIA ISLAND, LAGOS
+
+they would come out like this
+
+[
+    {
+        "id": 41,
+        "company_name": "SIMGO POULTRIES HUB",
+        "registration_number": "7645429",
+        "category": "business",
+        "registered_address": "NO.19 SHOTOMI STREET OKE ITUNU, IBADAN, OYO",
+        "incorporation_date": "JUL 3, 2024",
+        "main_object": "POULTRY SERVICES, FARMING AND GENERAL CONTRACTS",
+        "proprietors": [
+            {
+                "name": "AKINTOLA OLUFEMI ABIODUN",
+                "address": "SHOTOMI STREET OKE ITUNU, IBADAN, OYO"
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "company_name": "SAS OF LAGOS LIFESTYLE LIMITED",
+        "registration_number": "7416627",
+        "category": "company",
+        "registered_address": "BISOLA DUROSINMI ETTI DRIVE, LEKKI, LAGOS",
+        "incorporation_date": "MAR 25, 2024",
+        "main_object": "To carry on the businesses of entertainment promoters, sports promoters, event managers and representatives in all or any spheres of entertainment and sport.",
+        "share_capital": "1m",
+        "current_share_capital": null,
+        "allotted_share_capital": null,
+        "directors": [
+            {
+                "name": "SANNI SHEDRACH ADAVOGU",
+                "address": "ADEBISI OMOTOLA CLOSE, VICTORIA ISLAND, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "SHEDRACH ADAVOGU SANNI",
+                "shares": "10000 ORDINARY SHARES"
+            }
+        ],
+        "company_sec": null
+    }
+]

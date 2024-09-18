@@ -1,12 +1,14 @@
 {% extends "base.html" %}
 {% block content %}
 <hr>
+<div class="letter-address">
     <p> 17th September 2024</p>
-    <p>To: The Branch Service Manager</p>
-    <p>Providus Bank Plc</p>
+    <p>The Branch Service Manager</p>
+    <p><strong>Providus Bank Plc</strong></p>
     <p>724 Adetokunbo Ademola Street</p>
     <p>Victoria Island</p>
     <p>Lagos State</p>
+</div>
         
 
     <p><strong>Dear Sir/Ma,</strong></p>
@@ -120,8 +122,13 @@
                     <th>ADDRESS</th>
                 </tr>
             <tr>
+                {% if company_sec %}
                 <td>{{ company_sec.name or "Nil" }}</td>
                 <td>{{ company_sec.address or "Nil" }}</td>
+                {% else %}
+                <td>Nil</td>
+                <td></td>
+                {% endif %}
             </tr>
         </table>
         <table>

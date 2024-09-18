@@ -20,7 +20,7 @@
     <table>
         <tr>
             <td><strong>Date of Search:</strong></td>
-            <td>{{ search_date }}</td>
+            <td>17th September 2024</td>
         </tr>
         <tr>
             <td><strong>Name of Company:</strong></td>
@@ -50,7 +50,7 @@
             <td><strong>Partners:</strong></td>
             <br>
             <td>
-                <ul>
+                <ul class="list-section">
                     {% for partner in partners %}
                         <li>{{ partner.name }} - {{ partner.address }}</li>
                     
@@ -61,7 +61,7 @@
         <tr>
             <td><strong>Contributors:</strong></td>
             <td>
-                <ul>
+                <ul class="list-section">
                     {% for partner in partners %}
                         <li>{{ partner.name }} - {{ partner.address }}</li>
                     

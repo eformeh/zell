@@ -4,38 +4,70 @@ body {
     margin: 20px;
 }
 
-h1 {
-    font-family: 'Algerian', sans-serif;
-    font-size: 39px;
-    color: #00A038;
-    text-align: center;
-    margin-bottom: 0;
+/* Header section */
+.header-content {
+    display: flex;
+    align-items: center; /* Align logo and text vertically */
+    justify-content: center; /* Center the content horizontally */
+    gap: 20px; /* Space between logo and text */
+    margin-bottom: 10px;
 }
 
-h2 {
-    font-size: 12px;
-    text-align: center;
-    font-family: 'Cambria', serif;
-    color: black;
-    margin-top: 0;
+.logo {
+    display: inline-block;
+    width: 60px; /* Adjusted size for better alignment */
+    height: auto;
+    margin-right: 10px; /* Add space between logo and text */
 }
-h4 {
-    font-family: 'Algerian', sans-serif;
+
+.company-info h1 {
+    font-family: 'Algerian', serif;
+    font-size: 47px;
     color: #00A038;
+    margin: 0;
 }
+
+.company-info h2 {
+    font-size: 12px;
+    color: black;
+    margin: 0;
+}
+
+/* Company contact details (right-aligned) */
 .company-details {
     text-align: right;
     font-size: 12px;
+    font-family: 'Cambria', serif;
+}
+.company-details h4{
+    color: #00A038;
 }
 
+/* Contact information (left-aligned) */
 .contact-info {
+    text-align: left;
     font-size: 12px;
+    font-family: 'Cambria', serif;
+    color: black;
 }
 
+/* Headings for section titles */
+h4 {
+    font-family: 'Algerian', serif;
+    color: #00A038;
+}
+
+/* Content section margin */
+.content-section {
+    margin-top: 20px;
+}
+
+/* Table styles */
 table {
     width: 100%;
     margin: 20px 0;
     border-collapse: collapse;
+    border-spacing: 7px 10px; 
 }
 
 td {
@@ -43,24 +75,35 @@ td {
     border: none;
 }
 
-.content-section {
-    margin-top: 20px;
+td:nth-child(1) {
+    width: 42%; /* Adjust column width */
 }
 
-.underline {
-    text-decoration: underline;
+td:nth-child(2) {
+    width: 60%; /* Adjust column width */
 }
 
-.logo {
-    display: block;
-    margin: 0 auto;
-    width: 60px; /* Increased size for better visibility */
-    height: auto;
-}
-
+/* Signature block styling */
 .signature {
     display: block;
     width: 100px;
     height: auto;
+    margin-top: 20px;
+}
+
+/* List styles inside the table */
+ul {
+    list-style: none;
+    padding: 0; 
+    margin: 0;
+}
+
+/* Underlined text for emphasis */
+.underline {
+    text-decoration: underline;
+}
+
+/* Section spacing */
+.list-section {
     margin-top: 20px;
 }

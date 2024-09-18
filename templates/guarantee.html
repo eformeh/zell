@@ -19,7 +19,7 @@
     <table>
         <tr>
             <td><strong>Date of Search:</strong></td>
-            <td>{{ search_date }}</td>
+            <td>17th September 2024</td>
         </tr>
         <tr>
             <td><strong>Name of Company:</strong></td>
@@ -49,7 +49,7 @@
             <td><strong>Directors at Incorporation:</strong></td>
             <br>
             <td>
-                <ul>
+                <ul class="list-section">
                     {% for director in directors %}
                         <li>{{ director.name }} - {{ director.address }}</li>
                     
@@ -61,7 +61,7 @@
             <td><strong>Current Directors:</strong></td>
             <br>
             <td>
-                <ul>
+                <ul class="list-section">
                     {% for director in directors %}
                         <li>{{ director.name }} - {{ director.address }}</li>
                     
@@ -73,7 +73,7 @@
             <td><strong>Guarantors:</strong></td>
             <br>
             <td>
-                <ul>
+                <ul class="list-section">
                     {% for director in directors %}
                         <li>{{ director.name }} - {{ director.address }}</li>
                     

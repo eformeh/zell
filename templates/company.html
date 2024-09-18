@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
 <hr>
-    <p><strong>Date:</strong> 17th September 2024<</p>
+    <p><strong>Date:</strong> 17th September 2024</p>
     <p>To: The Branch Service Manager</p>
     <p>Providus Bank Plc</p>
     <p>724 Adetokunbo Ademola Street</p>
@@ -21,7 +21,7 @@
     <table>
         <tr>
             <td><strong>Date of Search:</strong></td>
-            <td>{{ search_date }}</td>
+            <td>17th September 2024</td>
         </tr>
         <tr>
             <td><strong>Name of Company:</strong></td>
@@ -63,7 +63,7 @@
             <td><strong>Directors at Incorporation:</strong></td>
             <br>
             <td>
-                <ul>
+                <ul class="list-section">
                     {% for director in directors %}
                         <li>{{ director.name }} - {{ director.address }}</li>
                     
@@ -74,7 +74,7 @@
         <tr>
             <td><strong>Current Directors:</strong></td>
             <td>
-                <ul>
+                <ul class="list-section">
                     {% for director in directors %}
                         <li>{{ director.name }} - {{ director.address }}</li>
                     

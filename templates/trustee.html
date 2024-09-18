@@ -20,7 +20,7 @@
     <table>
         <tr>
             <td><strong>Date of Search:</strong></td>
-            <td>{{ search_date }}</td>
+            <td>17th September 2024</td>
         </tr>
         <tr>
             <td><strong>Name of Company:</strong></td>
@@ -50,7 +50,7 @@
             <td><strong>Trustees at Incorporation:</strong></td>
             <br>
             <td>
-                <ul>
+                <ul class="list-section">
                     {% for trustee in trustees %}
                         <li>{{ trustee.name }} - {{ trustee.address }}</li>
                     
@@ -59,10 +59,10 @@
             </td>
         </tr>
         <tr>
-            <td><strong>Current Trustees:</strong></td>
+            <th><strong>Current Trustees:</strong></th>
             <br>
             <td>
-                <ul>
+                <ul class="list-section">
                     {% for trustee in trustees %}
                         <li>{{ trustee.name }} - {{ trustee.address }}</li>
                     

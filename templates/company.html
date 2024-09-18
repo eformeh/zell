@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
 <hr>
-    <p><strong>Date:</strong> 17th September 2024</p>
+    <p> 17th September 2024</p>
     <p>To: The Branch Service Manager</p>
     <p>Providus Bank Plc</p>
     <p>724 Adetokunbo Ademola Street</p>
@@ -9,7 +9,7 @@
     <p>Lagos State</p>
         
 
-    <p><strong>Dear Sir/Madam,</strong></p>
+    <p><strong>Dear Sir/Ma,</strong></p>
     
     <div style="border-bottom: 1px solid #F1F1F5; margin-bottom: 10px;">
         <p><strong class="underline">SEARCH REPORT ON {{ company_name }}</strong></p>
@@ -53,58 +53,95 @@
         </tr>
         <tr>
             <td><strong>Current Share Capital:</strong></td>
-            <td>{{ current_share_capital }}</td>
+            <td>{{ share_capital }}</td>
         </tr>
         <tr>
             <td><strong>Allotted Share Capital:</strong></td>
-            <td>{{ allotted_share_capital }}</td>
+            <td>{{ share_capital }}</td>
         </tr>
-        <tr>
-            <td><strong>Directors at Incorporation:</strong></td>
-            <br>
-            <td>
-                <ul class="list-section">
+            <table>
+                <thead>
+                    <tr>
+                        <br></br>
+                        <th>DIRECTORS AT INC</th>
+                        <th>ADDRESS</th>
+                    </tr>
+                </thead>
+                <tbody>
                     {% for director in directors %}
-                        <li>{{ director.name }} - {{ director.address }}</li>
-                    
+                    <tr>
+                        <td>{{ director.name }}</td>
+                        <td>{{ director.address }}</td>
+                    </tr>
                     {% endfor %}
-                </ul>
-            </td>
+                </tbody>
+            </table>
         </tr>
         <tr>
-            <td><strong>Current Directors:</strong></td>
-            <td>
-                <ul class="list-section">
+            <table>
+                <thead>
+                    <tr>
+                        <th>CURRENT DIRECTORS</th>
+                        <th>ADDRESS</th>
+                    </tr>
+                </thead>
+                <tbody>
                     {% for director in directors %}
-                        <li>{{ director.name }} - {{ director.address }}</li>
-                    
+                    <tr>
+                        <td>{{ director.name }}</td>
+                        <td>{{ director.address }}</td>
+                    </tr>
                     {% endfor %}
-                </ul>
-            </td>
+                </tbody>
+            </table>
         </tr>
         <tr>
-            <td><strong>Shareholders:</strong></td>
-            <td>{{ shareholders or "Nil" }}</td>
+        <table>
+            <thead>
+                <tr>
+                    <th>SHAREHOLDERS</th>
+                    <th>SHAREHOLDING</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for shareholder in shareholders %}
+                <tr>
+                    <td>{{ shareholder.name }}</td>
+                    <td>{{ shareholder.shares or "" }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
         </tr>
-        <tr>
-            <td><strong>Company Secretary:</strong></td>
-            <td>{{ company_sec or "Nil" }}</td>
-        </tr>
-        <tr>
-            <td><strong>Borrowing Powers:</strong></td>
-            <td>Paid</td>
-        </tr>
-        <tr>
-            <td><strong>Debentures:</strong></td>
-            <td>Paid</td>
-        </tr>
-        <tr>
-            <td><strong>Comment:</strong></td>
-            <td>Nil</td>
-        </tr>
-        <tr>
-            <td><strong>Remarks:</strong></td>
-            <td>The Company is duly registered</td>
-        </tr>
+        <table>
+            <thead>
+                <tr>
+                    <th>COMPANY SECRETARY</th>
+                    <th>ADDRESS</th>
+                </tr>
+            <tr>
+                <td>{{ company_sec.name or "Nil" }}</td>
+                <td>{{ company_sec.address or "Nil" }}</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td><strong>Borrowing Powers:</strong></td>
+                <td>Paid</td>
+            </tr>
+            <tr>
+                <td><strong>Debentures:</strong></td>
+                <td>Paid</td>
+            </tr>
+            <tr>
+                <td><strong>Comment:</strong></td>
+                <td>Nil</td>
+            </tr>
+            <tr>
+                <td><strong>Remarks:</strong></td>
+                <td>The Company is duly registered</td>
+            </tr>
+        </table>
+        
     </table>
 {% endblock %}

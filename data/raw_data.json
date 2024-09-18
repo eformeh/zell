@@ -15,51 +15,6 @@
         ]
     },
     {
-        "id": 42,
-        "company_name": "PEARL DYNAMIC AGRIC SOLUTIONS",
-        "registration_number": "7660960",
-        "category": "business",
-        "registered_address": "NO. 19 SHOTOMI STREET OKE ITUNU, IBADAN, OYO",
-        "incorporation_date": "JUL 7, 2024",
-        "main_object": "AGRICULTURAL SERVICES, FARMING, FARM PRODUCE, AGRO-ALLIED AND GENERAL CONTRACTS",
-        "proprietors": [
-            {
-                "name": "AKINTOLA OLUFEMI ABIODUN",
-                "address": "SHOTOMI STREET OKE ITUNU, IBADAN, OYO"
-            }
-        ]
-    },
-    {
-        "id": 43,
-        "company_name": "ENZO AGROTECH MATERIALS",
-        "registration_number": "7668050",
-        "category": "business",
-        "registered_address": "NO. 19 SHOTOMI STREET OKE ITUNU, IBADAN, OYO",
-        "incorporation_date": "JUL 9, 2024",
-        "main_object": "SALE OF AGRICULTURAL TOOLS, MACHINE, ALLIED PRODUCTS, FARM PRODUCE AND GENERAL CONTRACTS",
-        "proprietors": [
-            {
-                "name": "AKINTOLA OLUFEMI ABIODUN",
-                "address": "SHOTOMI STREET OKE ITUNU, IBADAN, OYO"
-            }
-        ]
-    },
-    {
-        "id": 44,
-        "company_name": "EMMYNET SERIES INTERIORS",
-        "registration_number": "2284011",
-        "category": "business",
-        "registered_address": "48, TEJUOSHOSTREET, TEJUOSHO, LAGOS.",
-        "incorporation_date": "DEC 13, 2013",
-        "main_object": "GENERAL Merchants & Traders",
-        "proprietors": [
-            {
-                "name": "Nwamama Emeka Jovita",
-                "address": "48, TEJUOSHOSTREET, TEJUOSHO, LAGOS."
-            }
-        ]
-    },
-    {
         "id": 45,
         "company_name": "SAS OF LAGOS LIFESTYLE LIMITED",
         "registration_number": "7416627",
@@ -99,21 +54,7 @@
             }
         ]
     },
-    {
-        "id": 47,
-        "company_name": "BRUN CHEMICAL RESOURCES",
-        "registration_number": "7337228",
-        "category": "business",
-        "registered_address": "99 OWODUNNI STREET, COKER ORILE, AJEROMI IFELODUN, LAGOS",
-        "incorporation_date": "FEB 7, 2024",
-        "main_object": "SUPPLY AND DISTRIBUTION OF CHEMICAL MATERIALS, KITCHEN UTENSILS, RENDERING OF FASHION DESIGN SERVICES, GENERAL CONTRACT",
-        "proprietors": [
-            {
-                "name": "AWE OLAITAN OMOWUNMI",
-                "address": "OWODUNNI STREET, COKER ORILE, AJEROMI IFELODUN, LAGOS"
-            }
-        ]
-    },
+
     {
         "id": 48,
         "company_name": "BEN GOOD MAN SUPERMARKET LTD",
@@ -158,7 +99,7 @@
         "registered_address": "LEKKI-EPE EXPRESSWAY, ALAHUN BUS STOP, LAGOS",
         "incorporation_date": "JUL 15, 2024",
         "main_object": "SUPPLY, SALE AND DISTRIBUTION OF BUILDING MATERIALS",
-        "share_capital": "1m",
+        "share_capital": "1,000,000",
         "current_share_capital": null,
         "allotted_share_capital": null,
         "directors": [
@@ -170,7 +111,7 @@
         "shareholders": [
             {
                 "name": "OLUWATOSIN OMOJOWOLO OJO",
-                "shares": "1000000 ORDINARY SHARES"
+                "shares": "1,000,000"
             }
         ],
         "company_sec": null

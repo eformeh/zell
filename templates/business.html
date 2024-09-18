@@ -1,14 +1,14 @@
 {% extends "base.html" %}
 {% block content %}
 <hr>
-    <p><strong>Date:</strong> 17th September 2024</p>
+    <p> 17th September 2024</p>
     <p>To: The Branch Service Manager</p>
     <p>Providus Bank Plc</p>
     <p>724 Adetokunbo Ademola Street</p>
     <p>Victoria Island</p>
     <p>Lagos State</p>
 
-    <p><strong>Dear Sir/Madam,</strong></p>
+    <p><strong>Dear Sir/Ma,</strong></p>
     
     <div style="border-bottom: 1px solid #F1F1F5; margin-bottom: 10px;">
         <p><strong class="underline">SEARCH REPORT ON {{ company_name }}</strong></p>
@@ -19,56 +19,65 @@
 
     <table>
         <tr>
-            <td><strong>Date of Search:</strong></td>
-            <td>{{ search_date }}</td>
+            <td><strong>DATE OF SEARCH:</strong></td>
+            <td>17th September 2024</td>
         </tr>
         <tr>
-            <td><strong>Name of Company:</strong></td>
+            <td><strong>NAME of COMPANY:</strong></td>
             <td>{{ company_name }}</td>
         </tr>
         <tr>
-            <td><strong>Type of Company:</strong></td>
+            <td><strong>TYPE OF COMPANY:</strong></td>
             <td>Business Name</td>
         </tr>
         <tr>
-            <td><strong>Registration Number:</strong></td>
+            <td><strong>REGISTRATION NUMBER:</strong></td>
             <td>BN {{ registration_number }}</td>
         </tr>
         <tr>
-            <td><strong>Date of Incorporation:</strong></td>
+            <td><strong>DATE OF INCORPORATION:</strong></td>
             <td>{{ incorporation_date }}</td>
         </tr>
         <tr>
-            <td><strong>Main Object:</strong></td>
+            <td><strong>MAIN OBJECT:</strong></td>
             <td>{{ main_object }}</td>
         </tr>
         <tr>
-            <td><strong>Registered Address:</strong></td>
+            <td><strong>REGISTERED ADDRESS:</strong></td>
             <td>{{ registered_address }}</td>
         </tr>
         <tr>
-            <td><strong>Proprietor(s):</strong></td>
-            <br>
-            <td>
-                <ul>
+            <table>
+                <thead>
+                    <tr>
+                        <th>PROPRIETOR(s)</th>
+                        <th>ADDRESS</th>
+                    </tr>
+                </thead>
+                <tbody>
                     {% for proprietor in proprietors %}
-                        <li>{{ proprietor.name }} - {{ proprietor.address }}</li>
-                    
+                    <tr>
+                        <td>{{ proprietor.name }}</td>
+                        <td>{{ proprietor.address }}</td>
+                    </tr>
                     {% endfor %}
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td><strong>Annual Returns:</strong></td>
-            <td>Nil</td>
-        </tr>
-        <tr>
-            <td><strong>Comment:</strong></td>
-            <td>Nil</td>
-        </tr>
-        <tr>
-            <td><strong>Remarks:</strong></td>
-            <td>The Company is duly registered</td>
-        </tr>
+                </tbody>
+            </table>
+        </tr> 
+        <table>
+            <tr>
+                <td><strong>Annual Returns:</strong></td>
+                <td>Nil</td>
+            </tr>
+            <tr>
+                <td><strong>Comment:</strong></td>
+                <td>Nil</td>
+            </tr>
+            <tr>
+                <td><strong>Remarks:</strong></td>
+                <td>The Company is duly registered</td>
+            </tr>
+        </table>
+       
     </table>
 {% endblock %}

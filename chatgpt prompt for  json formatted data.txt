@@ -24,7 +24,7 @@ guarantors(for guarantee)
 Details:
 
 For business , include proprietors as an array of objects with name and address.
-For company, include directors as an array of objects with name and address as well as shareholders as an array of objects with name and shares(note that for the shares and share_capital you are to pick only the number and put them in numeric form e.g 1m ceomes 1,000,000  ).
+For company, include directors as an array of objects with name and address as well as shareholders as an array of objects with name and shares(note that for the shares and share_capital you are to pick only the number and put them in numeric form e.g 1m becomes 1,000,000 with commas in it  ).
 for guarantee, include directors as an array of objects with name and address
 for partnership, include partners as an array of objects with name and address
 For trustee, include trustees as an array of objects with name and address

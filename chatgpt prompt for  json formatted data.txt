@@ -13,7 +13,7 @@ category (business/company/partnership/guarantee/trustee)
 registered_address
 incorporation_date
 main_object
-share_capital(for company)
+share capital(for company)
 proprietors (for business) or directors (for company and guarantee) or partners (for partnership) or trustees (for trustee)
 company_sec(for company and guarantee)
 trustee_sec(for trustees)
@@ -21,14 +21,15 @@ shareholders(for company)
 
 trustees(for trustee)
 guarantors(for guarantee)
-Details:
+Detailed constraints:
 
 For business , include proprietors as an array of objects with name and address.
 For company, include directors as an array of objects with name and address as well as shareholders as an array of objects with name and shares(note that for the shares and share_capital you are to pick only the number and put them in numeric form e.g 1m becomes 1,000,000 with commas in it  ).
 for guarantee, include directors as an array of objects with name and address
 for partnership, include partners as an array of objects with name and address
 For trustee, include trustees as an array of objects with name and address
-Here is the data:
+if address for any is not given please use the company registered address as their address(this is for partnership trustees and directors and proprietors)
+Here is a sample data:
 
 Business Name Example:
 
@@ -54,7 +55,7 @@ Main Object: To carry on the businesses of entertainment promoters, sports promo
 Directors:
 Name: SANNI SHEDRACH ADAVOGU Address: ADEBISI OMOTOLA CLOSE, VICTORIA ISLAND, LAGOS
 
-they would come out like this
+and here is a sample result:
 
 [
     {
@@ -80,7 +81,7 @@ they would come out like this
         "registered_address": "BISOLA DUROSINMI ETTI DRIVE, LEKKI, LAGOS",
         "incorporation_date": "MAR 25, 2024",
         "main_object": "To carry on the businesses of entertainment promoters, sports promoters, event managers and representatives in all or any spheres of entertainment and sport.",
-        "share_capital": "1m",
+        "share_capital": "1,000,000",
         "current_share_capital": null,
         "allotted_share_capital": null,
         "directors": [

@@ -9,7 +9,7 @@ Fields:
 id
 company_name
 registration_number
-category (business/company/partnership/guarantee/trustee)
+category ("business"/"company"/"partnership"/"guarantee"/"trustee")
 registered_address
 incorporation_date
 main_object

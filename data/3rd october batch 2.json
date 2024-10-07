@@ -1,0 +1,1979 @@
+[
+    {
+        "id": 1,
+        "company_name": "AYODEJAII SIGNATURE LIMITED",
+        "registration_number": "1310529",
+        "category": "company",
+        "registered_address": "NO 2 OLUFESO STREET ILORO AGEGE, LAGOS",
+        "incorporation_date": "JAN 21, 2016",
+        "main_object": "TO CARRY ON BUSINESS AS GARMENT MANUFACTURERS AND SUPPLIES.",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "SUNBOLA AYODEJI EMMANUEL",
+                "address": "NO 2 OLUFESO STREET ILORO AGEGE, LAGOS"
+            },
+            {
+                "name": "SUNBOLA ABIOLA KAFAYAT",
+                "address": "NO 2 OLUFESO STREET ILORO AGEGE, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "AYODEJI EMMANUEL SUNBOLA",
+                "shares": "700,000"
+            },
+            {
+                "name": "ABIOLA KAFAYAT SUNBOLA",
+                "shares": "300,000"
+            }
+        ],
+        "company_sec": {
+            "name": "MUHAMMEDSUNBOLA MICHAEL A.",
+            "address": "PLOT 10 OBA-LATEEF ADAMS CRESCENT CEMENT BUS STOP, IKEJA LAGOS"
+        }
+    },
+    {
+        "id": 2,
+        "company_name": "DEEVAKODAK EDIT",
+        "registration_number": "3788790",
+        "category": "business",
+        "registered_address": "6 AHMED KASUMU STREET, IDADO ESTATE, LEKKI, LAGOS",
+        "incorporation_date": "NOV 2, 2022",
+        "main_object": "PHOTOGRAPHY & VIDEOGRAPHY SERVICES",
+        "proprietors": [
+            {
+                "name": "OYUBU EMMANUELLA OGHENETEGA",
+                "address": "AHMED KASUMU STREET, IDADO ESTATE, LEKKI, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "company_name": "BLESSED KEN-MEDICS INTL LTD",
+        "registration_number": "6879361",
+        "category": "company",
+        "registered_address": "ONILEGBALE STREET, ISALE-EKO, IDUMOTA, LAGOS",
+        "incorporation_date": "FEB 17, 2023",
+        "main_object": "SALES AND SUPPLY OF HOSPITAL OPTICAL AND LABORATORY EQUIPMENT",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "CHUKWUCHEBE CHINASA KENNETH",
+                "address": "TAIKE STREET, IKOSI, KETU, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "CHINASA KENNETH CHUKWUCHEBE",
+                "shares": "1,000,000"
+            }
+        ],
+        "company_sec": {
+            "name": "CHUKWUCHEBE CHINASA KENNETH",
+            "address": "TAIKE STREET, IKOSI, KETU, LAGOS"
+        }
+    },
+    {
+        "id": 4,
+        "company_name": "SNOBAKE SPECIALTIES NIGERIA",
+        "registration_number": "2503678",
+        "category": "business",
+        "registered_address": "5, AYO STREET, OFF UPPER MISSION ROAD, BENIN CITY, EDO",
+        "incorporation_date": "APR 26, 2017",
+        "main_object": "MANUFACTURING AND SALES OF BAKING ACCESSORIES. DEAL IN CAKEBOARDS AND CAKEBOXES",
+        "proprietors": [
+            {
+                "name": "AUGUSTINE EZENWELU EMEKA",
+                "address": "5, AYO STREET, OFF UPPER MISSION ROAD, BENIN CITY, EDO"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "company_name": "DIGISPLASH COMPANY LIMITED",
+        "registration_number": "1280766",
+        "category": "company",
+        "registered_address": "2-4 JEMI ALADE STREET, IDIMU-ISHERI, LAGOS",
+        "incorporation_date": "AUG 14, 2015",
+        "main_object": "MARKETING SERVICES",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "ADEBAYO ADEDOLAPO TABITHA",
+                "address": "2-4 JEMI ALADE STREET, IDIMU-ISHERI, LAGOS"
+            },
+            {
+                "name": "ADEBAYO ADEDAMOLA RICHARD",
+                "address": "2-4 JEMI ALADE STREET, IDIMU-ISHERI, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "ADEDAMOLA RICHARD ADEBAYO",
+                "shares": "999,000"
+            },
+            {
+                "name": "ADEDOLAPO TABITHA ADEBAYO",
+                "shares": "1,000"
+            }
+        ],
+        "company_sec": null
+    },
+    {
+        "id": 6,
+        "company_name": "AZTEC SYNERGY LIMITED",
+        "registration_number": "1754849",
+        "category": "company",
+        "registered_address": "IBADAN STREET, (WEST) EBUTE-METTA, LAGOS",
+        "incorporation_date": "FEB 10, 2021",
+        "main_object": "REAL ESTATE ACTIVITIES",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "ADESANYA ADEBOLA EWAOLUWA",
+                "address": "PYRAMID PARK, NAIROBI"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "ADEBOLA EWAOLUWA ADESANYA",
+                "shares": "1,000,000"
+            }
+        ],
+        "company_sec": {
+            "name": "ALLI OLUMOROTI",
+            "address": "COOPERATIVE VILLAS BADORE, AJAH, LAGOS"
+        }
+    },
+    {
+        "id": 7,
+        "company_name": "ODIAHI STUDIO",
+        "registration_number": "3269909",
+        "category": "business",
+        "registered_address": "13TH FLOOR, CSS BOOKSHOP HOUSE, BROAD STREET, MARINA, LAGOS",
+        "incorporation_date": "DEC 16, 2020",
+        "main_object": "ARCHITECTURAL PRACTICE AND CONSULTANCY",
+        "proprietors": [
+            {
+                "name": "ODIAHI OLUWADAMILOLA ANITA",
+                "address": "13TH FLOOR, CSS BOOKSHOP HOUSE, BROAD STREET, MARINA, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "company_name": "ROTROW PROPERTIES LIMITED",
+        "registration_number": "7821285",
+        "category": "company",
+        "registered_address": "HPF COMPLEX, ABRAHAM ADESANYA, LEKKI EPE, LAGOS",
+        "incorporation_date": "AUG 12, 2024",
+        "main_object": "PROPERTY MANAGEMENT SERVICES",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "OSOBEMEKUN OLUWAROTIMI IBRAHIM",
+                "address": "EDEN ESTATE, LEKKI EPE EXPRESSWAY, LEKKI EPE, LAGOS"
+            },
+            {
+                "name": "OSOBEMEKUN OLUWANISHOLA BILIKIS",
+                "address": "EDEN ESTATE, LEKKI EPE EXPRESSWAY, LEKKI EPE, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "OLUWANISHOLA BILIKIS OSOBEMEKUN",
+                "shares": "500,000"
+            },
+            {
+                "name": "OLUWAROTIMI IBRAHIM OSOBEMEKUN",
+                "shares": "500,000"
+            }
+        ],
+        "company_sec": null
+    },
+    {
+        "id": 9,
+        "company_name": "IWORAN BY IMANI",
+        "registration_number": "7310097",
+        "category": "business",
+        "registered_address": "38 OLIVE CHURCH STREET, OKOTA, LAGOS",
+        "incorporation_date": "JAN 23, 2024",
+        "main_object": "CONTENT CREATION, PHOTOGRAPHY, VIDEOGRAPHY AND GENERAL CONTRACTS",
+        "proprietors": [
+            {
+                "name": "ADEWALE ADEOLA AYOMIDE",
+                "address": "38 OLIVE CHURCH STREET, OKOTA, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "company_name": "RESTOSPACE ENTERPRISES",
+        "registration_number": "7932886",
+        "category": "business",
+        "registered_address": "11A TUNDE OBITAYO STREET, MAGODO GRA PHASE 2, LAGOS",
+        "incorporation_date": "SEP 17, 2024",
+        "main_object": "FOOD PROCESSING, PACKAGING AND DISTRIBUTION",
+        "proprietors": [
+            {
+                "name": "ADEWOYE OLUYINKA MOYOSOLUWA",
+                "address": "TUNDE OBITAYO STREET, MAGODO GRA PHASE 2, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "company_name": "GOLDEN NISFEB NIGERIA ENTERPRISES",
+        "registration_number": "7432880",
+        "category": "business",
+        "registered_address": "158 AKOWONJO ROAD, AKOWONJO, LAGOS",
+        "incorporation_date": "APR 5, 2024",
+        "main_object": "IMPORT AND EXPORT OF LUBRICANT, GENERAL MERCHANDISE",
+        "proprietors": [
+            {
+                "name": "FAGBOLA OLUSEYE OLUTOYE",
+                "address": "158 AKOWONJO ROAD, AKOWONJO, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "company_name": "DUBRIZ VENTURES",
+        "registration_number": "6923233",
+        "category": "business",
+        "registered_address": "13B JOHN STREET, IDUMOTA, LAGOS",
+        "incorporation_date": "APR 3, 2023",
+        "main_object": "SALE OF CLOTHING MATERIALS AND GENERAL MERCHANDISE",
+        "proprietors": [
+            {
+                "name": "CHIKELU NDUBUEZE",
+                "address": "13B JOHN STREET, IDUMOTA, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "company_name": "VILLAGE SQUARE HOMES & APARTMENTS NIGERIA LIMITED",
+        "registration_number": "7699539",
+        "category": "company",
+        "registered_address": "FAVOURED LANE, CLOBEK CROWN ESTATE, LUGBE, ABUJA, FCT",
+        "incorporation_date": "JUL 15, 2024",
+        "main_object": "GENERAL CONTRACTS",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "ADEGOKE JOSHUA OLUWASEUN",
+                "address": "FAVOURED LANE, CLOBEK CROWN ESTATE, LUGBE, ABUJA, FCT"
+            },
+            {
+                "name": "OSEBEYO TOLUWANIMI DAVID",
+                "address": "FAVOURED LANE, CLOBEK CROWN ESTATE, LUGBE, ABUJA, FCT"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "TOLUWANIMI DAVID OSEBEYO",
+                "shares": "800,000"
+            },
+            {
+                "name": "JOSHUA OLUWASEUN ADEGOKE",
+                "shares": "200,000"
+            }
+        ],
+        "company_sec": {
+            "name": "OSEBEYO TOLUWANIMI DAVID",
+            "address": "FAVOURED LANE, CLOBEK CROWN ESTATE, LUGBE, ABUJA, FCT"
+        }
+    },
+    {
+        "id": 14,
+        "company_name": "GREEN CLEAN INNOVATION HUB LIMITED",
+        "registration_number": "1940060",
+        "category": "company",
+        "registered_address": "CHRIS OYAHKILOME CRESCENT, DURUMI 2, ABUJA, FCT",
+        "incorporation_date": "JUN 9, 2022",
+        "main_object": "FISH FARMING/AQUACULTURE",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "AMAHAH PROMISE NDIDI",
+                "address": "CHRIS OYAHKILOME CRESCENT, DURUMI 2, ABUJA, FCT"
+            },
+            {
+                "name": "MUSTAPHA AMINA JOYCE",
+                "address": "CHRIS OYAHKILOME CRESCENT, DURUMI 2, ABUJA, FCT"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "PROMISE NDIDI AMAHAH",
+                "shares": "980,000"
+            },
+            {
+                "name": "AMINA JOYCE MUSTAPHA",
+                "shares": "20,000"
+            }
+        ],
+        "company_sec": {
+            "name": "AMAHAH PROMISE NDIDI",
+            "address": "CHRIS OYAHKILOME CRESCENT, DURUMI 2, ABUJA, FCT"
+        }
+    },
+    {
+        "id": 15,
+        "company_name": "KELLZ AUTOS LIMITED",
+        "registration_number": "7816553",
+        "category": "company",
+        "registered_address": "AHMED SODIQ STREET, ILEPO PIPELINE, LAGOS",
+        "incorporation_date": "AUG 9, 2024",
+        "main_object": "SALES OF AUTOMOBILES AND SPARE PARTS",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "NDUKWE EMMANUEL KELLY",
+                "address": "LEKKI GARDENS PHASE 4, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "JOY OLA NDUKWE OKPAN",
+                "shares": "1,000,000"
+            }
+        ],
+        "company_sec": {
+            "name": "ABRAHAM OLUWAFUNMILOLA ABIMBOLA",
+            "address": "AHMED SODIQ STREET, ILEPO PIPELINE, LAGOS"
+        }
+    },
+    {
+        "id": 16,
+        "company_name": "VASTRACK TECH LIMITED",
+        "registration_number": "1206361",
+        "category": "company",
+        "registered_address": "225 LOLA HOLLOW WAY, OMOLE ESTATE, IKEJA, LAGOS",
+        "incorporation_date": "JUL 23, 2014",
+        "main_object": "INTERNET SERVICES",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "KALU VIVIAN ONYEKACHI",
+                "address": "24, NKPOR STREET, ABAKPA NIKE, ENUGU"
+            },
+            {
+                "name": "CHIBOKA UWADINACHI KINGSLEY NNEJI",
+                "address": "4, ALFRED STREET, DENRO, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "UWADINACHI KINGSLEY NNEJI",
+                "shares": "340,000"
+            },
+            {
+                "name": "DEVEGOWDA BINDU",
+                "shares": "330,000"
+            },
+            {
+                "name": "VIVIAN ONYEKACHI KALU",
+                "shares": "330,000"
+            }
+        ],
+        "company_sec": {
+            "name": "AMASIKE CAJETAN CHIDI",
+            "address": "12, ADEGBOLA STREET, LAGOS"
+        }
+    },
+    {
+        "id": 17,
+        "company_name": "LAND OF JEWELRIES",
+        "registration_number": "2239720",
+        "category": "business",
+        "registered_address": "8, OKEARIN STREET, LAGOS ISLAND, LAGOS",
+        "incorporation_date": "DEC 7, 2012",
+        "main_object": "GEN MERCHANTS & TRADERS",
+        "proprietors": [
+            {
+                "name": "Mayowa Ogunko",
+                "address": "8, OKEARIN STREET, LAGOS ISLAND, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "company_name": "MULTITRAITS RESOURCES LIMITED",
+        "registration_number": "734353",
+        "category": "company",
+        "registered_address": "NO 6TH FLOOR, MONARCH PLAZA, NO 65C, OPEBI ROAD, IKEJA, LAGOS",
+        "incorporation_date": "MAR 4, 2008",
+        "main_object": "GENERAL MERCHANDISE",
+        "share_capital": "100,000",
+        "directors": [
+            {
+                "name": "IBN-ALE ABIOLA",
+                "address": "NO 5 GBADEYANKA HAMMED CLOSE, OKE AGBE ESTATE, OJODU, LAGOS"
+            },
+            {
+                "name": "AJETOMOBI BOLA",
+                "address": "NO 5 GBADEYANKA HAMMED CLOSE, OKE AGBE ESTATE, OJODU, LAGOS"
+            },
+            {
+                "name": "AJETOMOBI ABIODUN CHARLES",
+                "address": "NO 65C OPEBI RD, IKEJA, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "IBN-ALE ABIOLA",
+                "shares": "33,333"
+            },
+            {
+                "name": "AJETOMOBI BOLA",
+                "shares": "33,333"
+            },
+            {
+                "name": "AJETOMBI ABIODUN CHARLES",
+                "shares": "33,334"
+            }
+        ],
+        "company_sec": null
+    },
+    {
+        "id": 19,
+        "company_name": "SEASON AGRIC NIGERIA LIMITED",
+        "registration_number": "7891997",
+        "category": "company",
+        "registered_address": "LEKKI-EPE EXPRESSWAY, LAKOWE, LAGOS",
+        "incorporation_date": "SEP 4, 2024",
+        "main_object": "FARMING",
+        "share_capital": "100,000,000",
+        "directors": [
+            {
+                "name": "KHALIFE MOHAMAD",
+                "address": "BEIRUT VERDUN, LEBANON"
+            },
+            {
+                "name": "OCHEINU MATHEW",
+                "address": "LEKKI-EPE EXPRESSWAY, LAKOWE, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "MOHAMAD KHALIFE",
+                "shares": "95,000,000"
+            },
+            {
+                "name": "MATHEW OCHEINU",
+                "shares": "5,000,000"
+            }
+        ],
+        "company_sec": {
+            "name": "OGBECHE AWODI EMMANUEL",
+            "address": "KODESOH STREET, IKEJA, LAGOS"
+        }
+    },
+    {
+        "id": 20,
+        "company_name": "XCLUSIVE APEX APPAREL ENTERPRISE",
+        "registration_number": "7441094",
+        "category": "business",
+        "registered_address": "150 BROAD STREET, LAGOS ISLAND, LAGOS",
+        "incorporation_date": "APR 12, 2024",
+        "main_object": "FASHION AND DESIGNS DEALS IN CLOTHING APPARELS",
+        "proprietors": [
+            {
+                "name": "TAGBAJUMI CHIOMA EDITH",
+                "address": "512 ROAD, D CLOSE, HOUSE 24, FESTAC, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "company_name": "NOUVOX PROJECT LTD",
+        "registration_number": "1984585",
+        "category": "company",
+        "registered_address": "MARINA, LAGOS",
+        "incorporation_date": "OCT 5, 2022",
+        "main_object": "SALE OF AGRICULTURAL PRODUCE",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "OYELEYE OYEWOLE AFIS",
+                "address": "MARINA, LAGOS ISLAND, LAGOS"
+            },
+            {
+                "name": "ABDUL - SALAM MORENIKE WUNMI FATIMAH",
+                "address": "MARINA, LAGOS ISLAND, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "MORENIKE WUNMI FATIMAH ABDUL - SALAM",
+                "shares": "300,000"
+            },
+            {
+                "name": "OYEWOLE AFIS OYELEYE",
+                "shares": "700,000"
+            }
+        ],
+        "company_sec": {
+            "name": "OYELEYE ADEBAYO ISAH",
+            "address": "ADDO ROAD BESIDE KEKERE MOSQUE, AJAH, LAGOS"
+        }
+    },
+    {
+        "id": 22,
+        "company_name": "FOODIES AT SKYSHOME LTD",
+        "registration_number": "7529088",
+        "category": "company",
+        "registered_address": "ROAD 2 MOD ESTATE IMOWO NLA OFF, IKORODU, LAGOS",
+        "incorporation_date": "MAY 29, 2024",
+        "main_object": "ACCOMMODATION AND FOOD SERVICES ACTIVITIES",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "OGUNKOMAYA KOREDE",
+                "address": "ROAD 2 MOD ESTATE IMOWO NLA OFF IJEDE RD, IKORODU, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "KOREDE OGUNKOMAYA",
+                "shares": "1,000,000"
+            }
+        ],
+        "company_sec": null
+    },
+    {
+        "id": 23,
+        "company_name": "ROMBA SERVICES LIMITED",
+        "registration_number": "7861258",
+        "category": "company",
+        "registered_address": "AKIN LEIGH CRESCENT, LEKKI PHASE 1, LEKKI, LAGOS",
+        "incorporation_date": "AUG 22, 2024",
+        "main_object": "TECHNICAL SERVICES",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "SANYAOLU OLUMIDE KOLAWOLE",
+                "address": "AKIN LEIGH CRESCENT, LEKKI PHASE 1, LEKKI, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "OLUMIDE KOLAWOLE SANYAOLU",
+                "shares": "1,000,000"
+            }
+        ],
+        "company_sec": null
+    },
+    {
+        "id": 24,
+        "company_name": "BCSHOPPINGHUB.NG",
+        "registration_number": "3587891",
+        "category": "business",
+        "registered_address": "20 OTIGBA STREET, COMPUTER VILLAGE, IKEJA, LAGOS",
+        "incorporation_date": "FEB 23, 2022",
+        "main_object": "E-COMMERCE WEBSITE SERVICES, ONLINE MARKETING, GENERAL CONTRACT AND MERCHANDISE",
+        "proprietors": [
+            {
+                "name": "UDEZE CHIJIOKE CHRISTOPHER",
+                "address": "NOBLE MAN STREET, IJEGUN IMORE, SATELLITE TOWN, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "company_name": "QUEENSBURY ATTORNEYS",
+        "registration_number": "2571973",
+        "category": "business",
+        "registered_address": "BLOCK B15, NO. 15/17/19 JIMOH JINADU STREET, OFF AKANRO STREET, ILASHAMAJA, MUSHIN, LAGOS",
+        "incorporation_date": "JAN 25, 2018",
+        "main_object": "LEGAL PRACTICE AND CONSULTANCY",
+        "proprietors": [
+            {
+                "name": "UKANDU IFEOMA EUCHARIA",
+                "address": "NO. 33 OLUFEMI PETERS, IRE-AKARI ESTATE, ISOLO, LAGOS"
+            },
+            {
+                "name": "PEREGRINO TAIWO AYOPO",
+                "address": "BLOCK 88 PLOT 11B ALHAJI BASHEER SHITTU AVENUE, MAGODO PHASE 2, SHANGISHA, MAGODO, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "company_name": "WERTVOLL CONSULTING SERVICES",
+        "registration_number": "7870191",
+        "category": "business",
+        "registered_address": "17B ROYALTY ROAD, IKOTA VILLA ESTATE, LEKKI, LAGOS",
+        "incorporation_date": "AUG 26, 2024",
+        "main_object": "HOSPITALITY AND CONSULTANCY SERVICES",
+        "proprietors": [
+            {
+                "name": "UGOCHUKWU COLLINS NWANGWU",
+                "address": "IKOTA VILLA ESTATE, LEKKI, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "company_name": "OBINNA OBI ONE BOUTIQUE",
+        "registration_number": "3617710",
+        "category": "business",
+        "registered_address": "124A OJUELEGBA ROAD, OJUELEGBA, LAGOS",
+        "incorporation_date": "MAR 25, 2022",
+        "main_object": "SALES OF SHOES (BOTH MALE AND FEMALE)",
+        "proprietors": [
+            {
+                "name": "OZUGBO OBINNA CASHMERE",
+                "address": "OJUELEGBA ROAD, OJUELEGBA, LAGOS"
+            },
+            {
+                "name": "NNAKENYI CHIDINMA PRECIOUS",
+                "address": "OJUELEGBA ROAD, OJUELEGBA, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "company_name": "OLABISI STORE",
+        "registration_number": "2253660",
+        "category": "business",
+        "registered_address": "122, EJALONIBU STREET, EBUTE-ERO, LAGOS ISLAND, LAGOS",
+        "incorporation_date": "APR 5, 2013",
+        "main_object": "GEN MERCHANTS & TRADERS",
+        "proprietors": [
+            {
+                "name": "Adebayo Olabisi Tairat",
+                "address": "122, EJALONIBU STREET, EBUTE-ERO, LAGOS ISLAND, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "company_name": "MAISON D' REGAL",
+        "registration_number": "7789068",
+        "category": "business",
+        "registered_address": "6 OLUBUNMI OWA STREET, OFF ADMIRALTY WAY, LEKKI PHASE 1, LEKKI, LAGOS",
+        "incorporation_date": "AUG 1, 2024",
+        "main_object": "SHORT-LET RENTALS AND ACCOMMODATION SERVICES",
+        "proprietors": [
+            {
+                "name": "MUHAMMED OLUWASEUN GBEMISOLA",
+                "address": "OLUBUNMI OWA STREET, OFF ADMIRALTY WAY, LEKKI PHASE 1, LEKKI, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "company_name": "PROFICIENT OUTSOURCING MANAGERS LIMITED",
+        "registration_number": "1480580",
+        "category": "company",
+        "registered_address": "19, AJAO AVE OFF ADENIYI JONES AVE, 100281, IKEJA, LAGOS",
+        "incorporation_date": "MAR 21, 2018",
+        "main_object": "To outsourcing for proficient managerial services",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "ENITILO OLASODE",
+                "address": "22, ADEPITAN STREET, ALAPERE, LAGOS"
+            },
+            {
+                "name": "OLAIYA GBENGA DAVID",
+                "address": "BLOCK 279, FLAT 3, JAKANDE ESTATE, OKE AFA, ISOLO, LAGOS"
+            },
+            {
+                "name": "OMOTAYO OLUSOLA MOSES",
+                "address": "22, CELESTIAL STREET, COMMAND, IPAJA, LAGOS"
+            },
+            {
+                "name": "KEHINDE GBENGA AKINTUNDE",
+                "address": "22, MY MOTHER'S LODGE, ADEPITAN STREET, ALAPERE, KETU, LAGOS"
+            },
+            {
+                "name": "COKER OLAYINKA KOFOWOROLA",
+                "address": "PLOT 940, BLOCK 39, FEDERAL GOVT SITE AND SERVICE HOUSING ESTATE, ABORU-ABESAN, IYANA IPAJA, LAGOS"
+            },
+            {
+                "name": "SOMOLU ADESOLA TEMITAYO",
+                "address": "AJAO AVE OFF ADENIYI JONES AVE, 100281, IKEJA, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "OLASODE ENITILO",
+                "shares": "260,000"
+            },
+            {
+                "name": "GBENGA DAVID OLAIYA",
+                "shares": "160,000"
+            },
+            {
+                "name": "OLUSOLA MOSES OMOTAYO",
+                "shares": "160,000"
+            },
+            {
+                "name": "GBENGA AKINTUNDE KEHINDE",
+                "shares": "160,000"
+            },
+            {
+                "name": "OLAYINKA COKER",
+                "shares": "160,000"
+            },
+            {
+                "name": "ADESOLA TEMITAYO SOMOLU",
+                "shares": "100,000"
+            }
+        ],
+        "company_sec": {
+            "name": "KEHINDE GBENGA AKINTUNDE",
+            "address": "22, MY MOTHER'S LODGE, ADEPITAN STREET, ALAPERE, LAGOS"
+        }
+    },
+    {
+        "id": 31,
+        "company_name": "URATUCHUKWU GLOBAL INVESTMENT CO. LIMITED",
+        "registration_number": "902467",
+        "category": "company",
+        "registered_address": "BLOCK 11, SHOP 6, PROMISE LAND, MATORI, MUSHIN, LAGOS",
+        "incorporation_date": "JUL 27, 2010",
+        "main_object": "GENERAL CONTRACT",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "NWAEMEM UCHECHUKWU",
+                "address": "26, TOYIN DAVID STREET, EJIGBO LAGOS"
+            },
+            {
+                "name": "NWAEMEM CHIBUEZE",
+                "address": "26, TOYIN DAVID STREET, EJIGBO LAGOS"
+            },
+            {
+                "name": "NWAEMEM ONYINYECHI",
+                "address": "26, TOYIN DAVID STREET, EJIGBO LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "NWAEMEM UCHECHUKWU",
+                "shares": "333,333"
+            },
+            {
+                "name": "NWAEMEM CHIBUEZE",
+                "shares": "333,333"
+            },
+            {
+                "name": "NWAEMEM ONYINYECHI",
+                "shares": "333,334"
+            }
+        ],
+        "company_sec": null
+    },
+    {
+        "id": 32,
+        "company_name": "KWA AGRICULTURAL DEVELOPMENT COMPANY LIMITED",
+        "registration_number": "1429340",
+        "category": "company",
+        "registered_address": "PLOT 999A DANMOLE STREET, OFF IDEJO STREET, VICTORIA ISLAND, LAGOS",
+        "incorporation_date": "AUG 6, 2017",
+        "main_object": "FARMING",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "MADUAGWU OSITA NWADIALO",
+                "address": "ALEXANDER ROAD, IKOYI, LAGOS"
+            },
+            {
+                "name": "OMOREGIE AMENZE BLESSING",
+                "address": "ALEXANDER ROAD, IKOYI, LAGOS"
+            },
+            {
+                "name": "ADEYEMI MODEBOLA",
+                "address": "ALEXANDER ROAD, IKOYI, LAGOS"
+            },
+            {
+                "name": "BABATUNDE AYODEJI OLATUNDE",
+                "address": "ALEXANDER ROAD, IKOYI, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "COUPON RETAIL LIMITED",
+                "shares": "1,000"
+            },
+            {
+                "name": "ADINO PARTNERS LIMITED",
+                "shares": "499,000"
+            },
+            {
+                "name": "ADINO PARTNERS LIMITED",
+                "shares": "500,000"
+            }
+        ],
+        "company_sec": {
+            "name": "LADOKUN TEMITOPE",
+            "address": "ALEXANDER ROAD, IKOYI, LAGOS"
+        }
+    },
+    {
+        "id": 33,
+        "company_name": "TRAVEL STATION NIGERIA LIMITED",
+        "registration_number": "7214888",
+        "category": "company",
+        "registered_address": "F9 STREET, CITEC MBORA ESTATE, JABI, AIRPORT JUNCTION ROAD, ABUJA, FCT",
+        "incorporation_date": "NOV 8, 2023",
+        "main_object": "AIR TRANSPORT",
+        "share_capital": "30,000,000",
+        "directors": [
+            {
+                "name": "FEESE-EWA SANDRA DOOSHIMA",
+                "address": "F9 STREET, CITEC MBORA ESTATE, JABI, AIRPORT JUNCTION ROAD, ABUJA, FCT"
+            },
+            {
+                "name": "EWA PHILIP",
+                "address": "F9 STREET, CITEC MBORA ESTATE, JABI, AIRPORT JUNCTION ROAD, ABUJA, FCT"
+            },
+            {
+                "name": "OLAWUMI GBENGA ALABA",
+                "address": "SILVERBIRD GALLERIA, BESIDE YAR'ADUA CENTRE, CENTRAL BUSINESS DISTRICT, ABUJA, FCT"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "PHILIP EWA",
+                "shares": "10,500,000"
+            },
+            {
+                "name": "GBENGA ALABA OLAWUMI",
+                "shares": "1,500,000"
+            },
+            {
+                "name": "SANDRA DOOSHIMA FEESE-EWA",
+                "shares": "18,000,000"
+            }
+        ],
+        "company_sec": {
+            "name": "EWA PHILIP",
+            "address": "F9 STREET, CITEC MBORA ESTATE, JABI, AIRPORT JUNCTION ROAD, ABUJA, FCT"
+        }
+    },
+    {
+        "id": 34,
+        "company_name": "SKYWIDE TRAVELS & TOURS LIMITED",
+        "registration_number": "982638",
+        "category": "company",
+        "registered_address": "NO.3, KOREDE STREET, ELIAS ESTATE, OWODE-ONIRIN, LAGOS",
+        "incorporation_date": "SEP 27, 2011",
+        "main_object": "To carry on business as Travel Agents and Tour Operators",
+        "share_capital": "500,000",
+        "directors": [
+            {
+                "name": "ODUNEWU SARAH MOJISOLA",
+                "address": "NO. 3, KOREDE STREET, ELIAS ESTATE OWODE-ONIRIN LAGOS"
+            },
+            {
+                "name": "ODUNEWU JULIUS OLADIMEJI",
+                "address": "NO. 3, KOREDE STREET, ELIAS ESTATE OWODE-ONIRIN LAGOS"
+            },
+            {
+                "name": "ODUNEWU ISRAEL AYOMIPO",
+                "address": "NO. 3, KOREDE STREET, ELIAS ESTATE OWODE-ONIRIN LAGOS"
+            },
+            {
+                "name": "ODUNEWU JONATHAN AYOMIDE",
+                "address": "NO. 3, KOREDE STREET, ELIAS ESTATE OWODE-ONIRIN LAGOS"
+            },
+            {
+                "name": "ODUNEWU TESTIMONY AYOMIKUN",
+                "address": "NO. 3, KOREDE STREET, ELIAS ESTATE OWODE-ONIRIN LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "ODUNEWU SARAH MOJISOLA",
+                "shares": "100,000"
+            },
+            {
+                "name": "ODUNEWU JULIUS OLADIMEJI",
+                "shares": "100,000"
+            },
+            {
+                "name": "ODUNEWU ISRAEL AYOMIPO",
+                "shares": "100,000"
+            },
+            {
+                "name": "ODUNEWU JONATHAN AYOMIDE",
+                "shares": "100,000"
+            },
+            {
+                "name": "ODUNEWU TESTIMONY AYOMIKUN",
+                "shares": "100,000"
+            }
+        ],
+        "company_sec": null
+    },
+    {
+        "id": 35,
+        "company_name": "INSIGNIA GLOBAL RESOURCES ENTERPRISE",
+        "registration_number": "7689078",
+        "category": "business",
+        "registered_address": "22 DOXA ROAD, PETER ODILI, TRANS-AMADI, RIVERS",
+        "incorporation_date": "JUL 12, 2024",
+        "main_object": "GENERAL MERCHANDISE",
+        "proprietors": [
+            {
+                "name": "ANUGWOM ONYEDIKACHI SAMUEL",
+                "address": "22 DOXA ROAD, PETER ODILI, TRANS-AMADI, RIVERS"
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "company_name": "UDONWA ODOH GLOBAL ENTERPRISE",
+        "registration_number": "6904093",
+        "category": "business",
+        "registered_address": "SHOP D2062 TEJUOSHO MAIN COMPLEX, OJUELEGBA, LAGOS",
+        "incorporation_date": "MAR 14, 2023",
+        "main_object": "FASHION AND TEXTILE SERVICES",
+        "proprietors": [
+            {
+                "name": "ODOH CHINWEUDO DOMINIC",
+                "address": "PEARSE LANE, OJUELEGBA, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "company_name": "KALIGWAI 67 GLOBAL RESOURCES",
+        "registration_number": "2943702",
+        "category": "business",
+        "registered_address": "23/29 ABIBU OKI STREET, CMS BUSTOP., LAGOS ISLAND, LAGOS",
+        "incorporation_date": "JUL 31, 2019",
+        "main_object": "IMPORT AND EXPORT OF FARMING PRODUCTS",
+        "proprietors": [
+            {
+                "name": "ABDULLSALAM IBRAHIM ALI",
+                "address": "23/29 ABIBU OKI STREET, CMS BUS STOP, LAGOS ISLAND, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "company_name": "LUCHILUXURY TRIPS AND TOUR",
+        "registration_number": "3048591",
+        "category": "business",
+        "registered_address": "13 ISAIAH ESTATE CHINDA BY ADA GEORGE, PORT-HARCOURT, RIVERS",
+        "incorporation_date": "JAN 15, 2020",
+        "main_object": "TICKETING/RESERVATIONS, VISA ASSISTANCE, HOTEL/APARTMENT RESERVATION, TOUR PACKAGES, TRAVEL MANAGEMENT AND LOGISTICS",
+        "proprietors": [
+            {
+                "name": "ANUNOBI MERCY OLUCHI",
+                "address": "13 ISAIAH ESTATE CHINDA BY ADA GEORGE, PORT-HARCOURT, RIVERS"
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "company_name": "FEEXET LIMITED",
+        "registration_number": "7199137",
+        "category": "company",
+        "registered_address": "DRIVE3 PRINCE AND PRINCESS ESTATE KARUA, ABUJA, FCT",
+        "incorporation_date": "OCT 30, 2023",
+        "main_object": "To carry on the business of Software designing, development, customization, implementation",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "OLATUNDE FERANMI ISRAEL",
+                "address": "SOGADE STREET, ARIYO, AMULOKO, IBADAN, OYO"
+            },
+            {
+                "name": "BALOGUN CHRISTOPHER AJIRI",
+                "address": "15, GABRIEL BABALOLA STREET, UNITY ESTATE, EGBEDA, LAGOS"
+            },
+            {
+                "name": "EDOYUGBO MERCY ESE",
+                "address": "DRIVE3 PRINCE AND PRINCESS ESTATE KARUA, ABUJA, FCT"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "FERANMI ISRAEL OLATUNDE",
+                "shares": "333,000"
+            },
+            {
+                "name": "MERCY ESE EDOYUGBO",
+                "shares": "334,000"
+            },
+            {
+                "name": "CHRISTOPHER AJIRI BALOGUN",
+                "shares": "333,000"
+            }
+        ],
+        "company_sec": null
+    },
+    {
+        "id": 40,
+        "company_name": "ASOSO GLOBA-TECH LTD",
+        "registration_number": "7681018",
+        "category": "company",
+        "registered_address": "D1 ROAD, SAM EKWY CRESCENT, SAM NUJOMA ESTATE, GALADIMAWA, ABUJA, FCT",
+        "incorporation_date": "JUL 11, 2024",
+        "main_object": "OTHER PERSONAL SERVICES ACTIVITIES",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "OMONIYI TITILAYO ADEKEMI",
+                "address": "POWERLINE ALAUSA OLAMBE JUNCTION, IFO, OGUN"
+            },
+            {
+                "name": "OLADELE OLUWATAYO SUNDAY",
+                "address": "AKIN STREET, MENDE, MARYLAND, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "OLUWATAYO SUNDAY OLADELE",
+                "shares": "400,000"
+            },
+            {
+                "name": "TITILAYO ADEKEMI OMONIYI",
+                "shares": "600,000"
+            }
+        ],
+        "company_sec": null
+    },
+    {
+        "id": 41,
+        "company_name": "BEE'S Z ESSENTIALS PUFF AND WINE SHOP",
+        "registration_number": "7802304",
+        "category": "business",
+        "registered_address": "10 RIVER ROAD UGBOROKE EFFURUN DELTA STATE",
+        "incorporation_date": "AUG 7, 2024",
+        "main_object": "SALES OF WINE, SMOKE ACCESSORIES AND GENERAL MERCHANDISE",
+        "proprietors": [
+            {
+                "name": "ENAKERAKPO BLESSING OVO",
+                "address": "RIVER ROAD UGBOROKE EFFURUN DELTA"
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "company_name": "IGIRIGI GOLD NIGERIA LTD",
+        "registration_number": "1943859",
+        "category": "company",
+        "registered_address": "PACOSON PLAZA, NNAMDI AZIKWE STREET, Mandilas, Lagos Island, LAGOS",
+        "incorporation_date": "JUN 20, 2022",
+        "main_object": "REAL ESTATE ACTIVITIES",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "ONYEJEKWE AMARACHI EUNICE",
+                "address": "GREEN FIELD ESTATE, OFF AGO PALACE WAY, OKOTA-ISOLO, LAGOS"
+            },
+            {
+                "name": "ONYEJEKWE OBINNA FRANCIS",
+                "address": "GREEN FIELD ESTATE, AGO PALACE WAY, OKOTA-ISOLO, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "OBINNA FRANCIS ONYEJEKWE",
+                "shares": "800,000"
+            },
+            {
+                "name": "AMARACHI EUNICE ONYEJEKWE",
+                "shares": "200,000"
+            }
+        ],
+        "company_sec": null
+    },
+    {
+        "id": 43,
+        "company_name": "MERITS-DELUXE FURNITURE AND WORD WORKS",
+        "registration_number": "7912230",
+        "category": "business",
+        "registered_address": "171 IKORODU ROAD, ONIPANU, LAGOS",
+        "incorporation_date": "SEP 10, 2024",
+        "main_object": "SALES OF FURNITURE, AND UPHOLSTERY SERVICES",
+        "proprietors": [
+            {
+                "name": "OKORONKWO BLESSING",
+                "address": "171 IKORODU ROAD, ONIPANU, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "company_name": "PROJECT FINI ENTERPRISE",
+        "registration_number": "3316595",
+        "category": "business",
+        "registered_address": "10 OMONIYI STREET, OFF CMD ROAD, SHANGISHA, MAGODO, LAGOS",
+        "incorporation_date": "MAR 4, 2021",
+        "main_object": "SUPPLY AND INSTALLATION OF BUILDING MATERIALS, SUSPENDED CEILINGS AND LIGHT FITTINGS",
+        "proprietors": [
+            {
+                "name": "FAJIMI ADEBOWALE ADEBAYO",
+                "address": "OMONIYI STREET, OFF CMD ROAD, SHANGISHA, MAGODO, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "company_name": "GAMR TECH SOLUTIONS LIMITED",
+        "registration_number": "1818488",
+        "category": "company",
+        "registered_address": "SOBO AROBIODU STREET, IKEJA GRA, LAGOS",
+        "incorporation_date": "JUL 15, 2021",
+        "main_object": "To carry on business as a technology company that organizes, hosts, finances and presents digital sporting events",
+        "share_capital": "10,000,000",
+        "directors": [
+            {
+                "name": "ADENIPEBI SHOLA KUNMI",
+                "address": "COMMUNITY ROAD, AKOKA, LAGOS"
+            },
+            {
+                "name": "FAKOYA OLUWASEYI ADEKUNLE",
+                "address": "KAYODE ODUNARO STREET, NUJ ESTATE PHASE 2, AREPO, OGUN"
+            },
+            {
+                "name": "EDUN OLUWADAMILOLA ENIOLA",
+                "address": "OGUN STREET OSBORNE FORESHORE, IKOYI, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "GAMR INCORPORATED",
+                "shares": "9,900,000"
+            },
+            {
+                "name": "OLUWADAMILOLA ENIOLA EDUN",
+                "shares": "100,000"
+            }
+        ],
+        "company_sec": {
+            "name": "PAVESTONES LEGAL",
+            "address": "GBENGA ADEMULEGUN, PARKVIEW ESTATE, IKOYI, LAGOS"
+        }
+    },
+    {
+        "id": 46,
+        "company_name": "EE-ESE INTEGRATED LTD",
+        "registration_number": "7185322",
+        "category": "company",
+        "registered_address": "OJAMAKINWA STREET, OFF ADDO ROAD, AJAH, LAGOS",
+        "incorporation_date": "OCT 20, 2023",
+        "main_object": "WAREHOUSING AND SUPPORT ACTIVITIES FOR TRANSPORTATION",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "EMUKPERUO ESE",
+                "address": "OJAMAKINWA STREET, OFF ADDO ROAD, AJAH, LAGOS"
+            },
+            {
+                "name": "OKOH MERCY OSA",
+                "address": "UGBOR/AMAGBA ROAD, G.R.A., BENIN-CITY, EDO"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "MERCY OSA OKOH",
+                "shares": "20,000"
+            },
+            {
+                "name": "ESE EMUKPERUO",
+                "shares": "980,000"
+            }
+        ],
+        "company_sec": {
+            "name": "RIABVIE VOKE MAIDEN",
+            "address": "NLC ROAD, CROWN ESTATE, LEKKI, LAGOS"
+        }
+    },
+    {
+        "id": 47,
+        "company_name": "MENDI CORE SOLUTIONS",
+        "registration_number": "7806555",
+        "category": "business",
+        "registered_address": "50 FUNSO KINOSHI STREET, AGO PALACE, OKOTA, LAGOS",
+        "incorporation_date": "AUG 7, 2024",
+        "main_object": "TO CARRY ON THE BUSINESS OF COMPUTER SALES AND ITS COMPONENT PARTS",
+        "proprietors": [
+            {
+                "name": "EZUKA UCHENNA EMMANUEL",
+                "address": "FUNSO KINOSHI STREET, AGO PALACE WAY, OKOTA, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "company_name": "MODUPE_EVENTS_NG",
+        "registration_number": "7809243",
+        "category": "business",
+        "registered_address": "50 IWAYA ROAD, ONIKE, YABA, LAGOS",
+        "incorporation_date": "AUG 8, 2024",
+        "main_object": "EVENTS PLANNING AND MANAGEMENT",
+        "proprietors": [
+            {
+                "name": "AKERELE MODUPE CATHERINE",
+                "address": "IWAYA ROAD, ONIKE, YABA, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "company_name": "TEEKIND MANAGEMENT LIMITED",
+        "registration_number": "1684766",
+        "category": "company",
+        "registered_address": "4 MARTINS STREET, YABA, LAGOS",
+        "incorporation_date": "JUL 9, 2020",
+        "main_object": "To carry on business general merchandise and trading",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "AJIBODE TAIWO OLUWABORI",
+                "address": "49 OLATUNDE STREET, OKE IRA OGBA, IKEJA, LAGOS"
+            },
+            {
+                "name": "ASHOLA OLUBUKOLA",
+                "address": "BLOCK 2A, FLAT 1, KIWI CLOSE, MTR GARDENS, AREPO, OGUN"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "TAIWO OLUWABORI AJIBODE",
+                "shares": "600,000"
+            },
+            {
+                "name": "OLUBUKOLA ASHOLA",
+                "shares": "400,000"
+            }
+        ],
+        "company_sec": {
+            "name": "ASHOLA OLUBUKOLA",
+            "address": "BLOCK 2A, FLAT 1, KIWI CLOSE, MTR GARDENS, AREPO, OGUN"
+        }
+    },
+    {
+        "id": 50,
+        "company_name": "LIGHTWAY MFB LIMITED",
+        "registration_number": "7472603",
+        "category": "company",
+        "registered_address": "SOLA OGUNTADE STREET, LEKKI PHASE 1, LAGOS",
+        "incorporation_date": "APR 30, 2024",
+        "main_object": "FINANCIAL SERVICES ACTIVITIES, EXCEPT INSURANCE AND PENSION FUNDING",
+        "share_capital": "200,000,000",
+        "directors": [
+            {
+                "name": "ODUSANYA OLUWABUNMI AYODELE",
+                "address": "SOLA OGUNTADE STREET, LEKKI PHASE 1, LAGOS"
+            },
+            {
+                "name": "AGBESANWA OLUFEMI",
+                "address": "SOLA OGUNTADE STREET, LEKKI PHASE 1, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "OLUWABUNMI AYODELE ODUSANYA",
+                "shares": "100,000,000"
+            },
+            {
+                "name": "OLUFEMI AGBESANWA",
+                "shares": "100,000,000"
+            }
+        ],
+        "company_sec": {
+            "name": "EDOIGIAWERIE & COMPANY LP",
+            "address": "IKEJA WAY, DOLPHIN ESTATE, IKOYI, LAGOS"
+        }
+    },
+    {
+        "id": 51,
+        "company_name": "ASSOCIATION OF CRYSTAL AND SUNRISE ESTATE RESIDENTS",
+        "registration_number": "7340220",
+        "category": "incorporated_trustee",
+        "registered_address": "CRYSTAL B REGIONAL ROAD, OFF HARRIS DRIVE OFF LEKKI AJAH EXPRESSWAY, LEKKI, LAGOS",
+        "incorporation_date": "FEB 8, 2024",
+        "main_object": "TRUSTEES",
+        "trustees": [
+            {
+                "name": "AMEACHI GLORIA ONYEBUCHI",
+                "address": "7R SUNRISE COURT OFF HARRIS DRIVE, VGC, LAGOS"
+            },
+            {
+                "name": "OKOKO CHARLES AGHAHOWA",
+                "address": "18L SUNRISE COURT OFF HARRIS DRIVE, VGC, LEKKI, LAGOS"
+            },
+            {
+                "name": "AGHAHOWA ANDREW OSAMUYIMEN",
+                "address": "HOUSE 21 CRYSTAL B REGIONAL ROAD, OFF HARRIS DRIVE OFF LEKKI AJAH EXPRESSWAY, LEKKI, LAGOS"
+            },
+            {
+                "name": "ONYEKE ELISHA ONYEKE",
+                "address": "HOUSE 10 CRYSTAL ESTATE OFF HARRIS DRIVE, VGC, LEKKI, LAGOS"
+            },
+            {
+                "name": "MILLETUS AKATE",
+                "address": "UNIT 4 CRYSTAL ESTATE PHASE 2, LEKKI, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 52,
+        "company_name": "VIJAD PROJECTS LIMITED",
+        "registration_number": "7755787",
+        "category": "company",
+        "registered_address": "ADENIYI ADEYINKA STREET ROAD 12, LEKKI SCHEME 2 ESTATE, AJAH, LAGOS",
+        "incorporation_date": "JUL 26, 2024",
+        "main_object": "CONSTRUCTION OF BUILDINGS",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "JIMBA VICTOR DAVID",
+                "address": "ADENIYI ADEYINKA STREET ROAD 12, LEKKI SCHEME 2 ESTATE, AJAH, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "VICTOR DAVID JIMBA",
+                "shares": "1,000,000"
+            }
+        ],
+        "company_sec": null
+    },
+    {
+        "id": 53,
+        "company_name": "WEAR VEROAMA LIMITED",
+        "registration_number": "7448989",
+        "category": "company",
+        "registered_address": "ABUNA STREET, EJIGBO, LAGOS",
+        "incorporation_date": "APR 17, 2024",
+        "main_object": "FASHION DESIGNING/TAILORING SERVICES",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "UDOH ABASIAMA MALACHY",
+                "address": "ABUNA STREET, EJIGBO, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "ABASIAMA MALACHY UDOH",
+                "shares": "1,000,000"
+            }
+        ],
+        "company_sec": null
+    },
+    {
+        "id": 54,
+        "company_name": "PALLADIA RESOURCES LIMITED",
+        "registration_number": "7180392",
+        "category": "company",
+        "registered_address": "KUSENLA STREET, IKATE ELEGUSHI, LAGOS",
+        "incorporation_date": "OCT 18, 2023",
+        "main_object": "GENERAL CONTRACTS, REAL ESTATE MANAGEMENT, BUYING AND SELLING OF LANDED PROPERTIES, SUPPLY AND GENERAL TRADING",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "IWEZE CYRIL UZODINMA",
+                "address": "KUSENLA STREET, IKATE ELEGUSHI, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "CYRIL UZODINMA IWEZE",
+                "shares": "1,000,000"
+            }
+        ],
+        "company_sec": null
+    },
+    {
+        "id": 55,
+        "company_name": "ZITEL ENERGY LIMITED",
+        "registration_number": "1898356",
+        "category": "company",
+        "registered_address": "MARYLAND, BADORE, AJAH, LAGOS",
+        "incorporation_date": "FEB 24, 2022",
+        "main_object": "SALE/DISTRIBUTION OF PETROLEUM PRODUCTS",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "OKECHUKWU FERDINAND CHIZOBA",
+                "address": "MARYLAND, BADORE, AJAH, LAGOS"
+            },
+            {
+                "name": "OKECHUKWU VERA UKAMAKA TOCHI",
+                "address": "MARYLAND, BADORE, AJAH, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "FERDINAND CHIZOBA OKECHUKWU",
+                "shares": "500,000"
+            },
+            {
+                "name": "VERA UKAMAKA TOCHI OKECHUKWU",
+                "shares": "500,000"
+            }
+        ],
+        "company_sec": {
+            "name": "PRIMETIME SOLICITORS",
+            "address": "UTAKO, ABUJA, FCT"
+        }
+    },
+    {
+        "id": 56,
+        "company_name": "HORLS AND KAYS SERVICES",
+        "registration_number": "3443876",
+        "category": "business",
+        "registered_address": "22 FOLARIN STREET, OFF LADIPO STREET, MUSHIN, LAGOS",
+        "incorporation_date": "AUG 11, 2021",
+        "main_object": "SALES AND REPAIR OF LARGE FORMAT PRINTING MACHINES, GENERAL PRINTING, REPAIR OF COMPUTERS TO PLATE MACHINE, TRADING AND GENERAL MERCHANDIZING",
+        "proprietors": [
+            {
+                "name": "EGBEBI OLANREWAJU YUSUF",
+                "address": "FOLARIN STREET, OFF LADIPO STREET, MUSHIN, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 57,
+        "company_name": "CYNTHIABEAUTYFASHION",
+        "registration_number": "3624220",
+        "category": "business",
+        "registered_address": "17 AKINKUNMI STREET, SURULERE, LAGOS",
+        "incorporation_date": "APR 4, 2022",
+        "main_object": "FASHION AND GENERAL MERCHANDISE",
+        "proprietors": [
+            {
+                "name": "ENEBELI OLUCHI CYNTHIA",
+                "address": "AKINKUNMI STREET, SURULERE, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 58,
+        "company_name": "AKB TRANSPORT AND LOGISTICS LIMITED",
+        "registration_number": "7395552",
+        "category": "company",
+        "registered_address": "OMOYEMI ADESOGA CLOSE, OFF TOYIN STREET, IKEJA, LAGOS",
+        "incorporation_date": "MAR 12, 2024",
+        "main_object": "ROAD TRANSPORTATION SERVICES",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "AKINTOKE ADEBOWALE FEYISAYO",
+                "address": "OMOYEMI ADESOGA CLOSE, OFF TOYIN STREET, IKEJA, LAGOS"
+            },
+            {
+                "name": "BALOGUN-ORDU ABOSEDE OMOTAYO TEMIDAYO",
+                "address": "OMOYEMI ADESOGA CLOSE, OFF TOYIN STREET, IKEJA, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "ABOSEDE OMOTAYO TEMIDAYO BALOGUN-ORDU",
+                "shares": "400,000"
+            },
+            {
+                "name": "ADEBOWALE FEYISAYO AKINTOKE",
+                "shares": "600,000"
+            }
+        ],
+        "company_sec": null
+    },
+    {
+        "id": 59,
+        "company_name": "DABH RESOURCES",
+        "registration_number": "7030316",
+        "category": "business",
+        "registered_address": "35 ONOSA ROAD, ONOSA TOWN, LEKKI, LAGOS",
+        "incorporation_date": "JUN 26, 2023",
+        "main_object": "GENERAL CONTRACT AND MERCHANDISE",
+        "proprietors": [
+            {
+                "name": "MUHAMMED HAZZAN",
+                "address": "CATHOLIC MISSION STREET, LAGOS ISLAND, LAGOS"
+            },
+            {
+                "name": "ONYEANYA WEALTH AKUEGWONWU",
+                "address": "KUSENLA ROAD, IKATE, ELEGUSHI, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "company_name": "NYEKA STUDIOS",
+        "registration_number": "7928485",
+        "category": "business",
+        "registered_address": "No.2 19TH ROAD, OFF 1ST AVENUE, FESTAC, LAGOS",
+        "incorporation_date": "SEP 14, 2024",
+        "main_object": "SALES OF INTERIOR DECORATION ITEMS",
+        "proprietors": [
+            {
+                "name": "ONYEKA MMESOMA SANDRA",
+                "address": "19TH ROAD, OFF 1ST AVENUE, FESTAC, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 61,
+        "company_name": "THE HARMONIESPRING SCHOOL LTD",
+        "registration_number": "1284073",
+        "category": "company",
+        "registered_address": "PLOT 10 DE MASTERS AVENUE, OFF NELSON MANDELA ROAD, PORT-HARCOURT, RIVERS",
+        "incorporation_date": "AUG 28, 2015",
+        "main_object": "TO CARRY ON THE BUSINESS OF NURSERY, PRIMARY & SECONDARY SCHOOL, IMPORT AND SUPPLY EDUCATIONAL MATERIALS",
+        "share_capital": "500,000",
+        "directors": [
+            {
+                "name": "ONYEANYA UCHENNA COSMAS",
+                "address": "I6 FRANCIS NNANYEREUGO STREET, BADORE, LAGOS"
+            },
+            {
+                "name": "ONYEANYA WEALTH AKUEGWUONWU",
+                "address": "I6 FRANCIS NNANYEREUGO STREET, BADORE, LAGOS"
+            },
+            {
+                "name": "DURUIKE COMFORT EDORO",
+                "address": "I6 FRANCIS NNANYEREUGO STREET, BADORE, PORT HARCOURT, RIVERS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "UCHENNA COSMAS ONYEANYA",
+                "shares": "300,000"
+            },
+            {
+                "name": "WEALTH AKUEGWUONWU ONYEANYA",
+                "shares": "100,000"
+            },
+            {
+                "name": "COMFORT EDORO DURUIKE",
+                "shares": "100,000"
+            }
+        ],
+        "company_sec": null
+    },
+    {
+        "id": 62,
+        "company_name": "DECODE24 NIGERIA LIMITED",
+        "registration_number": "1231811",
+        "category": "company",
+        "registered_address": "3, BABALOLA STREET, SAWMILL, GBAGADA, LAGOS",
+        "incorporation_date": "DEC 17, 2014",
+        "main_object": "TO CARRY ON THE OPERATIONS OF SOFTWARE DESIGNS",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "OLUWAFEMI AZEEZ OLUWASEUN",
+                "address": "3, BABALOLA STREET, SAWMILL, GBAGADA, LAGOS"
+            },
+            {
+                "name": "OLUWAFEMI TEMITOPE OMOYEMI",
+                "address": "3, BABALOLA STREET, SAWMILL, GBAGADA, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "AZEEZ OLUWASEUN OLUWAFEMI",
+                "shares": "800,000"
+            },
+            {
+                "name": "TEMITOPE OMOYEMI OLUWAFEMI",
+                "shares": "200,000"
+            }
+        ],
+        "company_sec": null
+    },
+    {
+        "id": 63,
+        "company_name": "5TH WALL ENTERPRISE",
+        "registration_number": "7367427",
+        "category": "business",
+        "registered_address": "7 MOHAMMED YINKA BELLO CRESCENT, SANGOTEDO LEKKI-AJAH, LAGOS",
+        "incorporation_date": "FEB 26, 2024",
+        "main_object": "REAL ESTATE ACTIVITIES AND PROJECT MANAGEMENT SERVICES",
+        "proprietors": [
+            {
+                "name": "OSOTEKU EMMANUEL DAMILOLA",
+                "address": "MOHAMMED YINKA BELLO CRESCENT, SANGOTEDO LEKKI-AJAH, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 64,
+        "company_name": "SHOP POSHH",
+        "registration_number": "7686356",
+        "category": "business",
+        "registered_address": "13 LAVENDER CRESCENT, NORTHERN FORESHORE ESTATE OFF CHEVRON DRIVE, LEKKI, LAGOS",
+        "incorporation_date": "JUL 11, 2024",
+        "main_object": "WOMEN CLOTHING",
+        "proprietors": [
+            {
+                "name": "EGBUNA NWAKAEGO PEACE",
+                "address": "LAVENDER CRESCENT, NORTHERN FORESHORE ESTATE OFF CHEVRON DRIVE, LEKKI, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 65,
+        "company_name": "AQUA GEM COMMERCIAL ENTERPRISES",
+        "registration_number": "2822898",
+        "category": "business",
+        "registered_address": "MAJEKODUNMI SHOPPING PLAZA SHOP B1 - B3 18 - 25, STADIUM ROAD, IJAIYE, AGEGE, LAGOS",
+        "incorporation_date": "MAR 12, 2019",
+        "main_object": "GENERAL MERCHANDISE",
+        "proprietors": [
+            {
+                "name": "ELUSAKIN JULIANAH FOLAKE",
+                "address": "MAJEKODUNMI SHOPPING PLAZA, SHOP B1 - B3 18 - 25, STADIUM ROAD, IJAIYE, AGEGE, LAGOS"
+            },
+            {
+                "name": "ELUSAKIN SAMSON OLABISI",
+                "address": "MAJEKODUNMI SHOPPING PLAZA, SHOP B1 - B3 18 - 25, STADIUM ROAD, IJAIYE, AGEGE, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 66,
+        "company_name": "DORBU SUCCESS VENTURES",
+        "registration_number": "3074590",
+        "category": "business",
+        "registered_address": "25, AGUNBIADE STREET, ONIPANU, SHOMOLU, MAINLAND, LAGOS",
+        "incorporation_date": "FEB 21, 2020",
+        "main_object": "GENERAL CONTRACTS",
+        "proprietors": [
+            {
+                "name": "OLUWASEGUN EMMANUEL ABIODUN",
+                "address": "25, AGUNBIADE STREET, ONIPANU, SHOMOLU, MAINLAND, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 67,
+        "company_name": "STEPH-TECH COMMUNICATIONS AND GADGETS",
+        "registration_number": "7891162",
+        "category": "business",
+        "registered_address": "49 YUSUF ROAD, KOLA ALAGBADO, LAGOS",
+        "incorporation_date": "SEP 4, 2024",
+        "main_object": "SALES OF MOBILE PHONES AND ACCESSORIES, GENERAL TRADING",
+        "proprietors": [
+            {
+                "name": "SAMUEL STEPHEN",
+                "address": "YUSUF ROAD, KOLA ALAGBADO, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 68,
+        "company_name": "CRAFT DISTILLERS LIMITED",
+        "registration_number": "7923071",
+        "category": "company",
+        "registered_address": "BELLA'S PLACE, LIGALI AYORINDE STREET, VICTORIA ISLAND, LAGOS",
+        "incorporation_date": "SEP 12, 2024",
+        "main_object": "MANUFACTURE OF BEVERAGES",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "OLAWOYE OLABOYEWA RICHARD",
+                "address": "OCEAN PARADE TOWERS, BANANA ISLAND, LAGOS"
+            },
+            {
+                "name": "OLAWOYE OLAMIDE",
+                "address": "OCEAN PARADE TOWERS, BANANA ISLAND, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "OLAMIDE OLAWOYE",
+                "shares": "800,000"
+            },
+            {
+                "name": "OLABOYEWA RICHARD OLAWOYE",
+                "shares": "200,000"
+            }
+        ],
+        "company_sec": null
+    },
+    {
+        "id": 69,
+        "company_name": "UNIGLOBEX LIMITED",
+        "registration_number": "7937785",
+        "category": "company",
+        "registered_address": "NDUHU UMUODAH, NGURU, IMO",
+        "incorporation_date": "SEP 18, 2024",
+        "main_object": "IMPORT AND EXPORT OF GENERAL GOODS",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "DIALA UGOCHUKWU COLLINS",
+                "address": "DADDY SAVAGE STREET, IJU FAGBA, AGEGE, LAGOS"
+            },
+            {
+                "name": "DIALA BIBIAN ADAKU",
+                "address": "DADDY SAVAGE STREET, IJU FAGBA, AGEGE, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "UGOCHUKWU COLLINS DIALA",
+                "shares": "960,000"
+            },
+            {
+                "name": "BIBIAN ADAKU DIALA",
+                "shares": "40,000"
+            }
+        ],
+        "company_sec": null
+    },
+    {
+        "id": 70,
+        "company_name": "LUFTREIBER AUTOMOBILE LTD",
+        "registration_number": "7878020",
+        "category": "company",
+        "registered_address": "AHMADU BELLO WAY, ABUJA, FCT",
+        "incorporation_date": "AUG 30, 2024",
+        "main_object": "AUTOMOBILE/MECHANICAL SERVICES",
+        "share_capital": "100,000,000",
+        "directors": [
+            {
+                "name": "ECHEFU GIFT EZICHI",
+                "address": "EIB STRATOC HQ, SPECIAL ACTIVITIES CENTER, IDU INDUSTRIAL AREA, IDU, ABUJA, FCT"
+            },
+            {
+                "name": "ECHEFU BRIGHT IKECHUKWU",
+                "address": "EIB STRATOC HQ, SPECIAL ACTIVITIES CENTER, IDU INDUSTRIAL AREA, IDU, ABUJA, FCT"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "GIFT EZICHI ECHEFU",
+                "shares": "20,000,000"
+            },
+            {
+                "name": "BRIGHT IKECHUKWU ECHEFU",
+                "shares": "80,000,000"
+            }
+        ],
+        "company_sec": {
+            "name": "ECHEFU EZICHI GIFT",
+            "address": "EIB STRATOC HQ, SPECIAL ACTIVITIES CENTER, IDU INDUSTRIAL AREA, IDU, ABUJA, FCT"
+        }
+    },
+    {
+        "id": 71,
+        "company_name": "TINNY ENTERPRISE",
+        "registration_number": "7062187",
+        "category": "business",
+        "registered_address": "01 AGBELOBA ROUNDABOUT STREET, AGBELOBA, OGUN",
+        "incorporation_date": "JUL 20, 2023",
+        "main_object": "SALES AND SUPPLIES OF FARM PRODUCTS & GENERAL MERCHANDISING",
+        "proprietors": [
+            {
+                "name": "JOLU BAMIDELE ADEKUNLE",
+                "address": "KUFORIJI OLUBI STREET, ADIGBE, OGUN"
+            }
+        ]
+    },
+    {
+        "id": 72,
+        "company_name": "AJAMU ALAPO-META VENTURE",
+        "registration_number": "7935969",
+        "category": "business",
+        "registered_address": "7 OJURIN BODIJA STREET, BODIJA, OYO",
+        "incorporation_date": "SEP 18, 2024",
+        "main_object": "GENERAL MERCHANDISE, CLOTHING AND ACCESSORIES",
+        "proprietors": [
+            {
+                "name": "BUSARI OLUWASHINA OPEYEMI",
+                "address": "OJURIN BODIJA STREET, BODIJA, OYO"
+            }
+        ]
+    },
+    {
+        "id": 73,
+        "company_name": "DIMEJIEXPRESS LOGISTICS LIMITED",
+        "registration_number": "6978377",
+        "category": "company",
+        "registered_address": "OMILADE STREET, MAFORLUKU, LAGOS",
+        "incorporation_date": "MAY 19, 2023",
+        "main_object": "OTHER PERSONAL SERVICES ACTIVITIES",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "OLASHUPO MICHEAL OLADIMEJI",
+                "address": "OMILADE STREET, MAFORLUKU, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "MICHEAL OLADIMEJI OLASHUPO",
+                "shares": "1,000,000"
+            }
+        ],
+        "company_sec": null
+    },
+    {
+        "id": 74,
+        "company_name": "DREISER SUPPLIES",
+        "registration_number": "2376551",
+        "category": "business",
+        "registered_address": "18, FEDDISON STREET, OFF OGBIMI DRIVE, DELTA",
+        "incorporation_date": "NOV 20, 2015",
+        "main_object": "GENERAL MERCHANDISE",
+        "proprietors": [
+            {
+                "name": "ARUEYINGHO CHIOMA THERESA",
+                "address": "18, FEDDISON STREET, OFF OGBIMI DRIVE, DELTA"
+            }
+        ]
+    },
+    {
+        "id": 75,
+        "company_name": "D`VARIS INTERIOR",
+        "registration_number": "2342889",
+        "category": "business",
+        "registered_address": "15, JAVIE ROAD, IKOGA ZEBBE, BADAGRY, LAGOS",
+        "incorporation_date": "MAY 6, 2015",
+        "main_object": "INTERIOR DESIGN",
+        "proprietors": [
+            {
+                "name": "SOJI VARIS SUNDAY",
+                "address": "15, JAVIE ROAD, IKOGA ZEBBE, BADAGRY, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 76,
+        "company_name": "GOLDEN VALLEY AGRO FARMS LTD",
+        "registration_number": "7904694",
+        "category": "company",
+        "registered_address": "FADEYI STREET, OGBA, LAGOS",
+        "incorporation_date": "SEP 6, 2024",
+        "main_object": "FOOD PRODUCTION AND PROCESSING SERVICES",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "IGBINOBA EFOSA TEMINIOLAOLUWA",
+                "address": "APATA STREET, OKE IRA, OGBA, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "EFOSA TEMINIOLAOLUWA IGBINOBA",
+                "shares": "1,000,000"
+            }
+        ],
+        "company_sec": null
+    },
+    {
+        "id": 77,
+        "company_name": "ULTRALOGIC GLOBAL ENTERPRISES LIMITED",
+        "registration_number": "1475379",
+        "category": "company",
+        "registered_address": "15, KODESOH STREET, IKEJA, LAGOS",
+        "incorporation_date": "MAR 2, 2018",
+        "main_object": "SALES AND DISTRIBUTION OF PHONES AND LAPTOPS",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "OWOYEMI ODUNAYO OPEYEMI",
+                "address": "4, BISI FAKOLUSO CLOSE, KETU, KOSOFE LGA, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "ODUNAYO OPEYEMI OWOYEMI",
+                "shares": "900,000"
+            },
+            {
+                "name": "FOLASADE OLUWATOSIN AJAYI",
+                "shares": "100,000"
+            }
+        ],
+        "company_sec": {
+            "name": "ELEGBOJA JOHNSON",
+            "address": "218A LOLA HOLLOWAY STREET, OMOLE PHASE 1, IKEJA, LAGOS"
+        }
+    },
+    {
+        "id": 78,
+        "company_name": "FAVOURITE HAIR GLOBAL NIGERIA LIMITED",
+        "registration_number": "1206182",
+        "category": "company",
+        "registered_address": "NO.1, FADEYI ALADURA STREET, IKEJA, LAGOS",
+        "incorporation_date": "JUL 22, 2014",
+        "main_object": "GENERAL CONTRACT",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "ANI DAMIAN JEFFERSON",
+                "address": "NO. 1, FADEYI ALADURA STREET, IKEJA, LAGOS"
+            },
+            {
+                "name": "ANI FAVOUR OLUOMA",
+                "address": "NO. 1, FADEYI ALADURA STREET, IKEJA, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "ANI DAMIAN JEFFERSON",
+                "shares": "500,000"
+            },
+            {
+                "name": "ANI FAVOUR OLUOMA",
+                "shares": "500,000"
+            }
+        ],
+        "company_sec": null
+    },
+    {
+        "id": 79,
+        "company_name": "VOYAGE ACCESSORIES LIMITED",
+        "registration_number": "7200397",
+        "category": "company",
+        "registered_address": "BALOGUN STREET, LAGOS ISLAND, LAGOS",
+        "incorporation_date": "OCT 30, 2023",
+        "main_object": "ADMINISTRATIVE AND SUPPORT SERVICES ACTIVITIES",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "RAJI SHERIFFDEEN OLAMILEKAN",
+                "address": "ALOF CLOSE OFF OMIDIDUN STREET, LAGOS ISLAND, LAGOS"
+            },
+            {
+                "name": "RAJI MODINAT AJOKE",
+                "address": "INABEERE CLOSE OFF GLOVER STREET, LAGOS ISLAND, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "SHERIFFDEEN OLAMILEKAN RAJI",
+                "shares": "800,000"
+            },
+            {
+                "name": "MODINAT AJOKE RAJI",
+                "shares": "200,000"
+            }
+        ],
+        "company_sec": null
+    },
+    {
+        "id": 80,
+        "company_name": "KNTY GLOBAL AUTO'S SERVICES",
+        "registration_number": "7916314",
+        "category": "business",
+        "registered_address": "12 SARUMI IFESOWAPO ALAKIA AIRPORT, IBADAN, OYO",
+        "incorporation_date": "SEP 11, 2024",
+        "main_object": "GENERAL CONTRACT AND MERCHANDISE",
+        "proprietors": [
+            {
+                "name": "AKINTAYO OLUWAPELUMI GABRIEL",
+                "address": "SARUMI IFESOWAPO ALAKIA AIRPORT, IBADAN, OYO"
+            }
+        ]
+    }
+]

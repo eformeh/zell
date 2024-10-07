@@ -1,0 +1,366 @@
+[
+    {
+        "id": 81,
+        "company_name": "U SELECT IT NIGERIA LIMITED",
+        "registration_number": "640158",
+        "category": "company",
+        "registered_address": "NO.15, WACHUKWU STREET, RUMUIGBO, PORTHARCOURT, RIVERS",
+        "incorporation_date": "NOV 28, 2005",
+        "main_object": "GENERAL CONTRACTS",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "OHOCHUKWU IHEANACHO",
+                "address": "NO. 15, WACHUKWU STREET RUMUIGBO PORTHARCOURT RIVERS"
+            },
+            {
+                "name": "OHOCHUKWU EBIERE",
+                "address": "NO. 15, WACHUKWU STREET RUMUIGBO PORTHARCOURT RIVERS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "OHOCHUKWU IHEANACHO",
+                "email": null,
+                "shares": ""
+            },
+            {
+                "name": "OHOCHUKWU EBIERE",
+                "email": null,
+                "shares": ""
+            }
+        ],
+        "company_sec": null
+    },
+    {
+        "id": 82,
+        "company_name": "XYZ PALMHOMES LIMITED",
+        "registration_number": "1871839",
+        "category": "company",
+        "registered_address": "OLADIMEJI ALO STREET, LEKKI PHASE 1, LAGOS",
+        "incorporation_date": "DEC 9, 2021",
+        "main_object": "PROPERTY DEVELOPMENT SERVICES",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "ALESH LANRE IDUNNU",
+                "telephone": "07089713457",
+                "email": "JASON.ALESH@GMAIL.COM",
+                "address": "OLADIMEJI ALO STREET, LEKKI PHASE 1, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "LANRE IDUNNU ALESH",
+                "email": "jason.alesh@gmail.com",
+                "shares": "1,000,000 S"
+            }
+        ],
+        "company_sec": null
+    },
+    {
+        "id": 83,
+        "company_name": "JOESYL INDUSTRIES ENTERPRISES",
+        "registration_number": "3279799",
+        "category": "business",
+        "registered_address": "NO. 9 EGERTON LANE, BALOGUN, LAGOS",
+        "incorporation_date": "JAN 27, 2021",
+        "main_object": "DEAL IN GENERAL GOODS AND MANUFACTURERS REPRESENTATIVES",
+        "proprietors": [
+            {
+                "name": "OKAFOR SYLVESTER",
+                "telephone": "08033145465",
+                "email": "JOESYL75@YAHOO.COM",
+                "address": "NO. 9 EGERTON LANE, BALOGUN, APONGBON, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 84,
+        "company_name": "SOLOMON LEGAL PRACTICE",
+        "registration_number": "3194233",
+        "category": "business",
+        "registered_address": "5, ADMIRALTY ROAD, LEKKI PHASE 1, LAGOS.",
+        "incorporation_date": "SEP 23, 2020",
+        "main_object": "LEGAL SERVICES AND CONSULTATION",
+        "proprietors": [
+            {
+                "name": "SOLOMON OLUWATOYIN",
+                "telephone": "07066030255",
+                "email": "TSHITTU2K@YAHOO.CO.UK",
+                "address": "D24, MILLENIUM ESTATE, 6 FATAI AROBIEKE STREET, LEKKI PHASE 1, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 85,
+        "company_name": "RAVAN LOGISTICS",
+        "registration_number": "7854350",
+        "category": "business",
+        "registered_address": "EKEOHA STREET,",
+        "incorporation_date": "AUG 20, 2024",
+        "main_object": "DISPATCH AND COURIER SERVICES TRUCK & HAULAGE SERVICES. GENERAL LOGISTICS",
+        "proprietors": [
+            {
+                "name": "EDU AMAKA FRANCA",
+                "telephone": "08055367467",
+                "email": "RAVANLOGISTICS@YAHOO.COM",
+                "address": "BUNMI OLOWUDE, ONIRU, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 86,
+        "company_name": "DAEMON ENERGY LIMITED",
+        "registration_number": "1731763",
+        "category": "company",
+        "registered_address": "41 FALOLU STREET, SURULERE, LAGOS",
+        "incorporation_date": "NOV 6, 2020",
+        "main_object": "To carry on the business of designing, procuring, supplying, installing and maintaining renewable energy systems, including solar electric, thermal and refrigerating systems, wind and hydro power plants",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "ONWUAGHA CHUKWUEBUKA EMMANUEL",
+                "telephone": "+234 701 736 6775",
+                "email": "EBUKA.ONWUAGHA@GMAIL.COM",
+                "address": "FALOLU STREET, SURULERE, LAGOS"
+            },
+            {
+                "name": "OKPOKITI FOLASHADE AMINAT",
+                "telephone": "07062613132",
+                "email": "FOLASHADEOKPOKITI@GMAIL.COM",
+                "address": "JASMINE ROAD, PINNOCK BEACH ESTATE,, LAGOS"
+            },
+            {
+                "name": "OJIKUTU AJIBOLA AZEEZ",
+                "telephone": "08091463248",
+                "email": "AJIBOLAAZEEZ@YAHOO.COM",
+                "address": "41 FALOLU STREET, SURULERE,, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "FOLASHADE AMINAT OKPOKITI",
+                "email": "FOLASHADEOKPOKITI@GMAIL.COM",
+                "shares": "325,000"
+            },
+            {
+                "name": "CHUKWUEBUKA EMMANUEL ONWUAGHA",
+                "email": "EBUKA.ONWUAGHA@GMAIL.COM",
+                "shares": "325,000"
+            },
+            {
+                "name": "AJIBOLA OJIKUTU",
+                "email": "ajibolaazeez@yahoo.com",
+                "shares": "350,000"
+            }
+        ],
+        "company_sec": {
+            "name": "IGBERAESE VICTORIA OMOZELE",
+            "telephone": "08175977893",
+            "email": "IGBERAESEVICKY@GMAIL.COM",
+            "address": "4 TABUKOGERE STREET, BAKARE ESTATE, AGUNGI, LAGOS"
+        }
+    },
+    {
+        "id": 87,
+        "company_name": "THE BLUEPRINT CHURCH",
+        "registration_number": "7648188",
+        "category": "trustee",
+        "registered_address": "7 CHIEF VITUS UZOR AVENUE, CANAL ESTATE, LAGOS",
+        "incorporation_date": "JUL 4, 2024",
+        "trustees": [
+            {
+                "name": "SOBANDE OLUWATOSIN TOSAN",
+                "telephone": "08136152330",
+                "email": "REETOSANEDUCARE@GMAIL.COM",
+                "address": "BLOCK 416 ,FLAT A AMUWO ODOFIN HOUSING ESTATE,MILE 2, LAGOS"
+            },
+            {
+                "name": "OBI NKECHINYEREM OGOCHUKWU",
+                "telephone": "08167463281",
+                "email": "SIYANBADEDORCA@GMAIL.COM",
+                "address": "24 LOBE OKPALA CRESCENT LAKE VIEW ESTATEPHASE 2,AMUWO ODOFIN, LAGOS"
+            },
+            {
+                "name": "SIYANBADE DORCAS TIJESUNIMI",
+                "telephone": "08167463281",
+                "email": "SIYANBADEDORCAS@GMAIL.COM",
+                "address": "24 LOBE OKPALA CRESCENT LAKE VIEW ESTATEPHASE 2,AMUWO ODOFIN, LAGOS"
+            },
+            {
+                "name": "ANYANWU OKECHUKWU",
+                "telephone": "08157222136",
+                "email": "LEADPASTOR@BLUEPRINTSTORIES.ORG",
+                "address": "7 CHIEF VITUS UZOR AVENUE.CANAL ESTATE, LAGOS"
+            },
+            {
+                "name": "UMECHIEDO ONYINYECHUKWU OGECHUKWU",
+                "telephone": "09038275622",
+                "email": "ONYINYE.UMECHIEDO@GMAIL.COM",
+                "address": "HOUSE M10 21 ROAD DE CLOSE FESTAC, LAGOS, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 88,
+        "company_name": "THE MEDITERRANEAN PRACTICE",
+        "registration_number": "2536648",
+        "category": "business",
+        "registered_address": "5 ASENUGA STREET, LAGOS",
+        "incorporation_date": "SEP 8, 2017",
+        "main_object": "LEGAL SERVICES AND CONSULTANCY",
+        "proprietors": [
+            {
+                "name": "EGBEYEMI MUBARAK",
+                "telephone": "+2347033819115",
+                "email": "M.EGBEYEMI@THEMEDITERRANEANPRACTICE.COM",
+                "address": "14 IBEREKODO AVENUE BRIDGE GATE ESTATE, LAGOS"
+            },
+            {
+                "name": "IDEWU TITILOPE SUSAN",
+                "telephone": "08028111638",
+                "email": "TITI.IDEWU@GMAIL.COM",
+                "address": "39 ODUDUWA STREET, KILO, SURULERE, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 89,
+        "company_name": "JUSTFAB SUTANA FABRIC & MORE",
+        "registration_number": "7310651",
+        "category": "business",
+        "registered_address": "IDOHO STREET, MOBILE ESTATE, SATELLITE TOWN, LAGOS",
+        "incorporation_date": "JAN 23, 2024",
+        "main_object": "SALES OF FABRICS",
+        "proprietors": [
+            {
+                "name": "OGUNBOWALE TEMITOPE OLUWATOYIN",
+                "telephone": "09162874047",
+                "email": "TMONIYI222010@GMAIL.COM",
+                "address": "IDOHO STREET, MOBILE ESTATE, SATELLITE TOWN, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 90,
+        "company_name": "DOUBLE STANDARD EXPORT AND IMPORT LTD",
+        "registration_number": "7500904",
+        "category": "company",
+        "registered_address": "RICHLAND GARDEN, LEKKI/EPE EXPRESSWAY, LEKKI, LAGOS",
+        "incorporation_date": "MAY 17, 2024",
+        "main_object": "IMPORT AND EXPORT OF GENERAL GOODS",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "WILLIAMS SAMUEL FAJO",
+                "telephone": "07046240067",
+                "email": "FAJOGOLD@GMAIL.COM",
+                "address": "RICHLAND GARDEN, LEKKI/EPE EXPRESSWAY, LEKKI, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "SAMUEL FAJO WILLIAMS",
+                "email": "FAJOGOLD@GMAIL.COM",
+                "shares": "1 "
+            }
+        ],
+        "company_sec": null
+    },
+     
+    {
+        "id": 91,
+        "company_name": "INPARADISUM AUTO ENTERPRISES",
+        "registration_number": "3817317",
+        "category": "business",
+        "registered_address": "TANSI CATHOLIC CHURCH ROAD, ORJI MECHANIC VILLAGE, UGWU ORJI, OWERRI, IMO",
+        "incorporation_date": "DEC 13, 2022",
+        "main_object": "GENERAL CONTRACT & MERCHANDISE, IMPORT & EXPORT OF GENERAL GOODS AND SERVICES",
+        "proprietors": [
+            {
+                "name": "AMAECHI COLMAN UCHENNA",
+                "telephone": "08035682106",
+                "email": "COLMANTEJUDE@YAHOO.COM",
+                "address": "TANSI CATHOLIC CHURCH ROAD, ORJI MECHANIC VILLAGE, UGWU ORJI, OWERRI, IMO"
+            }
+        ]
+    },
+    {
+        "id": 92,
+        "company_name": "KOLAN LOGISTICS LIMITED",
+        "registration_number": "836921",
+        "category": "company",
+        "registered_address": "1 ADEBAYO FOLARIN STREET, AWOYAYA, LEKKI, LAGOS",
+        "incorporation_date": "AUG 6, 2009",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "KOLA OLADIYAN",
+                "telephone": null,
+                "email": null,
+                "address": "1 ADEBAYO FOLARIN ST, AWOYAYA, LEKKI, LAGOS"
+            },
+            {
+                "name": "OLABISI OLANIYAN",
+                "telephone": null,
+                "email": null,
+                "address": "1 ADEBAYO FOLARIN ST, AWOYAYA, LEKKI, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "KOLA OLADIYAN",
+                "email": null,
+                "shares": null
+            },
+            {
+                "name": "OLABISI OLANIYAN",
+                "email": null,
+                "shares": null
+            }
+        ],
+        "company_sec": null
+    },
+     
+    {
+        "id": 41,
+        "company_name": "SIMGO POULTRIES HUB",
+        "registration_number": "7645429",
+        "category": "business",
+        "registered_address": "NO.19 SHOTOMI STREET OKE ITUNU, IBADAN, OYO",
+        "incorporation_date": "JUL 3, 2024",
+        "main_object": "POULTRY SERVICES, FARMING AND GENERAL CONTRACTS",
+        "proprietors": [
+            {
+                "name": "AKINTOLA OLUFEMI ABIODUN",
+                "address": "SHOTOMI STREET OKE ITUNU, IBADAN, OYO"
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "company_name": "SAS OF LAGOS LIFESTYLE LIMITED",
+        "registration_number": "7416627",
+        "category": "company",
+        "registered_address": "BISOLA DUROSINMI ETTI DRIVE, LEKKI, LAGOS",
+        "incorporation_date": "MAR 25, 2024",
+        "main_object": "To carry on the businesses of entertainment promoters, sports promoters, event managers and representatives in all or any spheres of entertainment and sport.",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "SANNI SHEDRACH ADAVOGU",
+                "address": "ADEBISI OMOTOLA CLOSE, VICTORIA ISLAND, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "SHEDRACH ADAVOGU SANNI",
+                "shares": "10,000 ORDINARY SHARES"
+            }
+        ],
+        "company_sec": null
+    }
+]
+
+

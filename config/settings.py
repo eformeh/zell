@@ -2,7 +2,7 @@
 TEMPLATES_DIR = 'templates/'
 OUTPUT_HTML_DIR = 'reports/html/'
 OUTPUT_PDF_DIR = 'reports/pdf/'
-OPENAI_API_KEY= ''
+# OPENAI_API_KEY= ''
 # PDFKit options
 PDFKIT_OPTIONS = {
     'page-size': 'A4',

@@ -2,7 +2,7 @@
 {% block content %}
 <hr>
 <div class="letter-address">
-    <p> 3rd October 2024</p>
+    <p> 8th October 2024</p>
     <p>The Branch Service Manager</p>
     <p><strong>Providus Bank Plc</strong></p>
     <p>724 Adetokunbo Ademola Street</p>
@@ -21,7 +21,7 @@
     <table>
         <tr>
             <td><strong>Date of Search:</strong></td>
-            <td>3rd October 2024</td>
+            <td>8th October 2024</td>
         </tr>
         <tr>
             <td><strong>Name of Company:</strong></td>
@@ -47,46 +47,76 @@
             <td><strong>Registered Address:</strong></td>
             <td>RC {{ registered_address }}</td>
         </tr>
+        
+        <table>
+            <thead>
+                <tr>
+                    <br></br>
+                    <th>DIRECTORS AT INC</th>
+                    <th>ADDRESS</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for director in directors %}
+                <tr>
+                    <td>{{ director.name }}</td>
+                    <td>{{ director.address }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </tr>
+    <tr>
+        <table>
+            <thead>
+                <tr>
+                    <th>CURRENT DIRECTORS</th>
+                    <th>ADDRESS</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for director in directors %}
+                <tr>
+                    <td>{{ director.name }}</td>
+                    <td>{{ director.address }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </tr>
+    <table>
+        <thead>
+            <tr>
+                <th>GUARANTORS</th>
+                <th>ADDRESS</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for director in directors %}
+            <tr>
+                <td>{{ director.name }}</td>
+                <td>{{ director.address }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>COMPANY SECRETARY</th>
+                <th>ADDRESS</th>
+            </tr>
         <tr>
-            <td><strong>Directors at Incorporation:</strong></td>
-            <br>
-            <td>
-                <ul class="list-section">
-                    {% for director in directors %}
-                        <li>{{ director.name }} - {{ director.address }}</li>
-                    
-                    {% endfor %}
-                </ul>
-            </td>
+            {% if company_sec %}
+            <td>{{ company_sec.name or "Nil" }}</td>
+            <td>{{ company_sec.address or "Nil" }}</td>
+            {% else %}
+            <td>Nil</td>
+            <td></td>
+            {% endif %}
         </tr>
-        <tr>
-            <td><strong>Current Directors:</strong></td>
-            <br>
-            <td>
-                <ul class="list-section">
-                    {% for director in directors %}
-                        <li>{{ director.name }} - {{ director.address }}</li>
-                    
-                    {% endfor %}
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td><strong>Guarantors:</strong></td>
-            <br>
-            <td>
-                <ul class="list-section">
-                    {% for director in directors %}
-                        <li>{{ director.name }} - {{ director.address }}</li>
-                    
-                    {% endfor %}
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td><strong>Company Secretary:</strong></td>
-            <td>{{ company_sec }}</td>
-        </tr>
+    </table>
+    <table>
         <tr>
             <td><strong>Annual Returns:</strong></td>
             <td>Nil</td>
@@ -107,5 +137,6 @@
             <td><strong>Remarks:</strong></td>
             <td>The Company is duly registered</td>
         </tr>
+    </table>
     </table>
 {% endblock %}

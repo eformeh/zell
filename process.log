@@ -1,2 +1,0 @@
-2024-10-04 00:00:42,583 - ERROR - Error generating HTML for entry with ID 51: Template file incorporated_trustee.html not found in templates/.
-2024-10-04 07:54:52,694 - ERROR - Error generating HTML for entry with ID 25: An error occurred while saving the HTML report to reports/html/EMMYBEST_GLOBAL/_LOGISTICS_VENTURES.html: [Errno 2] No such file or directory: 'reports/html/EMMYBEST_GLOBAL/_LOGISTICS_VENTURES.html'

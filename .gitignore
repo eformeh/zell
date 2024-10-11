@@ -1,2 +1,6 @@
 /reports
 .venv
+__pycache__
+/.vscode
+/.vscode
+/data/history

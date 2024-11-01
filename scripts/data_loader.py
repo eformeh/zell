@@ -11,10 +11,12 @@ def load_data(file_path):
         raise FileNotFoundError(f"{file_path} not found.")
     
     try:
-        with open(file_path, 'r') as file:
+        with open(file_path, 'r', encoding="utf-8") as file:
             data = json.load(file)
     except json.JSONDecodeError as e:
         raise ValueError(f"Error decoding JSON from {file_path}: {e}")
+    except UnicodeDecodeError as e:
+        raise RuntimeError(f"Encoding error while loading data from {file_path}: {e}")
     except Exception as e:
         raise RuntimeError(f"An unexpected error occurred while loading data from {file_path}: {e}")
     

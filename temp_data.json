@@ -1,0 +1,277 @@
+[
+    {
+        "id": 1,
+        "company_name": "STAIRWAY LOGISTICS & INTER -TRADE SERVICES",
+        "registration_number": "7183428",
+        "category": "business",
+        "registered_address": "68 PHASE 4 GLOCOM ARAB CONTRACTOR MPAPE, ABUJA, FCT",
+        "incorporation_date": "OCT 19, 2023",
+        "main_object": "TRADING SERVICES, LOGISTICS SERVICES AND GENERAL CONTRACT",
+        "proprietors": [
+            {
+                "name": "OLAJIDE GANIYU OLADIMEJI",
+                "address": "PHASE 4 GLOCOM ARAB CONTRACTOR MPAPE, ABUJA, FCT"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "company_name": "BI-CHIGGY LOGISTICS LIMITED",
+        "registration_number": "1928972",
+        "category": "company",
+        "registered_address": "RANDLE ROAD, APAPA, LAGOS",
+        "incorporation_date": "MAY 12, 2022",
+        "main_object": "OTHER PERSONAL SERVICES ACTIVITIES",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "OBIH CHIGOZIE DEREK",
+                "address": "THOMAS ANIMASHAUN STREET, AGUDA, LAGOS"
+            },
+            {
+                "name": "OBIH UCHENNA OGOCHUKWU",
+                "address": "THORMAS ANIMASHAUN STREET, SURULERE, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "CHIGOZIE DEREK OBIH",
+                "shares": "400,000"
+            },
+            {
+                "name": "UCHENNA OGOCHUKWU OBIH",
+                "shares": "300,000"
+            },
+            {
+                "name": "BI-CHIGGY LOGISTICS LIMITED",
+                "shares": "300,000"
+            }
+        ],
+        "company_sec": null
+    },
+    {
+        "id": 3,
+        "company_name": "URBAN WOODBERRY INTERNATIONAL SERVICES LIMITED",
+        "registration_number": "7266226",
+        "category": "company",
+        "registered_address": "DOLPHIN PLAZA, DOLPHIN ESTATE, IKOYI, LAGOS",
+        "incorporation_date": "DEC 15, 2023",
+        "main_object": "MANUFACTURE OF FURNITURE",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "AMEH VICTOR OJONUGWA",
+                "address": "DOLPHIN PLAZA, DOLPHIN ESTATE, IKOYI, LAGOS"
+            },
+            {
+                "name": "OKORO GLADYS AJIRI",
+                "address": "DOLPHIN PLAZA, DOLPHIN ESTATE, IKOYI, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "VICTOR OJONUGWA AMEH",
+                "shares": "500,000"
+            },
+            {
+                "name": "GLADYS AJIRI OKORO",
+                "shares": "500,000"
+            }
+        ],
+        "company_sec": {
+            "name": "OKORO GLADYS AJIRI",
+            "address": "DOLPHIN PLAZA, DOLPHIN ESTATE, IKOYI, LAGOS"
+        }
+    },
+    {
+        "id": 4,
+        "company_name": "STAREDGE INVESTMENT LIMITED",
+        "registration_number": "6967847",
+        "category": "company",
+        "registered_address": "41 ROAD, OPPOSITE AMUWO-ODOFIN LOCAL GOVERNMENT SECRETARIAT, FESTAC TOWN, LAGOS",
+        "incorporation_date": "MAY 15, 2023",
+        "main_object": "OTHER PERSONAL SERVICES ACTIVITIES",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "LEWU KAYODE NDUBUISI",
+                "address": "41 ROAD, OPPOSITE AMUWO-ODOFIN LOCAL GOVERNMENT SECRETARIAT, FESTAC TOWN, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "KAYODE NDUBUISI LEWU",
+                "shares": "1,000,000"
+            }
+        ],
+        "company_sec": {
+            "name": "ADEOBA ADELEKAN ADEKUNLE",
+            "address": "G CLOSE, BLOCK 3, FLAT 16, FESTAC TOWN, LAGOS"
+        }
+    },
+    {
+        "id": 5,
+        "company_name": "ADE NICHOLE LIMITED",
+        "registration_number": "1964012",
+        "category": "company",
+        "registered_address": "4 MODUPE STREET OFF ADEKAYODE STREET AROWOJOBE ESTATE, MENDE, MARYLAND, LAGOS",
+        "incorporation_date": "AUG 17, 2022",
+        "main_object": "FASHION DESIGNING/ TAILORING SERVICES",
+        "share_capital": "1,000,000",
+        "directors": [
+            {
+                "name": "ADETAYO ESTHER ADEDOLAPO",
+                "address": "KAJOLA STREET, MARYLAND, LAGOS"
+            },
+            {
+                "name": "MORAFA ADEYEMI ADEMOLA",
+                "address": "KAJOLA STREET, MARYLAND, LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "ADEYEMI ADEMOLA MORAFA",
+                "shares": "50,000"
+            },
+            {
+                "name": "ESTHER ADEDOLAPO ADETAYO",
+                "shares": "950,000"
+            }
+        ],
+        "company_sec": null
+    },
+    {
+        "id": 6,
+        "company_name": "CAS NATURALS",
+        "registration_number": "3279248",
+        "category": "business",
+        "registered_address": "40 EL-BETHEL CHURCH STREET OFF GOVERNORS ROAD, IKOTUN, LAGOS",
+        "incorporation_date": "JAN 26, 2021",
+        "main_object": "SALE OF NATURAL SKIN CARE PRODUCTS AND GENERAL MERCHANDISE /TRADING",
+        "proprietors": [
+            {
+                "name": "UKPENE CASSANDRA OBIANUJU",
+                "address": "40 EL-BETHEL CHURCH STREET OFF GOVERNORS ROAD, IKOTUN, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "company_name": "3KINGS LAKEVIEW SPOT",
+        "registration_number": "3676255",
+        "category": "business",
+        "registered_address": "G122-UNIT 1 LAKEVIEW CRESCENT, LEKKI GARDENS PHASE 2, ETI-OSA, LAGOS",
+        "incorporation_date": "JUN 6, 2022",
+        "main_object": "LOUNGE AND GRILLS SPOT & RESTAURANT SERVICES",
+        "proprietors": [
+            {
+                "name": "ILOANUSI NNEKA MARIE-THERESE",
+                "address": "LAKEVIEW CRESCENT, LEKKI GARDENS PHASE 2, ETI-OSA, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "company_name": "CHAYAN CONSTRUCTION VENTURES LTD",
+        "registration_number": "1343103",
+        "category": "company",
+        "registered_address": "NO. 21A, AKANGBARE CLOSE, VICTORIA ISLAND, LAGOS",
+        "incorporation_date": "JUN 20, 2016",
+        "main_object": "TO CARRY ON THE BUSINESS OF CONSTRUCTION WORKS, PROPERTY DEVELOPERS",
+        "share_capital": "2,000,000",
+        "directors": [
+            {
+                "name": "ANTOUN PATRICK",
+                "address": "252E, PRINCE KAYODE AKINGBADE CLOSE, VICTORIA ISLAND, LAGOS"
+            },
+            {
+                "name": "ROUBA EL BACHA",
+                "address": "ANTOUN BUILDING, NO. 28, SAYHDEH STREET"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "PATRICK ANTOUN",
+                "shares": "1,000,000"
+            },
+            {
+                "name": "EL BACHA ROUBA",
+                "shares": "1,000,000"
+            }
+        ],
+        "company_sec": {
+            "name": "GIWA HANNAH OLUWASEUN",
+            "address": "NO. 23, DOSUNMU STREET, ITIRE, LAGOS"
+        }
+    },
+    {
+        "id": 9,
+        "company_name": "GENTLE NEST GLOBAL SERVICES",
+        "registration_number": "6974055",
+        "category": "business",
+        "registered_address": "5 BISHOP STREET, ILUPEJU, LAGOS",
+        "incorporation_date": "MAY 17, 2023",
+        "main_object": "GENERAL CONTRACTS AND MERCHANDISE",
+        "proprietors": [
+            {
+                "name": "GORHE GODWIN JOMAFUWHE",
+                "address": "BISHOP STREET, ILUPEJU, LAGOS"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "company_name": "AFEM PUBLISHERS LTD",
+        "registration_number": "942183",
+        "category": "company",
+        "registered_address": "NO 21 ADIO STREET OFF SHEGBAMU STREET APELEHIN BARIGA, LAGOS, LAGOS",
+        "incorporation_date": "MAR 16, 2011",
+        "main_object": "SALES OF BOOKS AND STATIONERIES, PRINTING PRESS, CONTRACTS AND GENERAL MERCHANDISE.",
+        "share_capital": "2,000,000",
+        "directors": [
+            {
+                "name": "ADENEKAN CLEMENT OLUFEMI",
+                "address": "NO 21 ADIO STREET OFF SHOGBAMU STREET APELEHIN BARIGA LAGOS"
+            },
+            {
+                "name": "ADENEKAN ELIZABETH TEMITAYO",
+                "address": "NO 21 ADIO STREET OFF SHOGBAMU STREET APELEHIN BARIGA LAGOS"
+            },
+            {
+                "name": "ADENEKAN MARY MOYOSOREOLUWA",
+                "address": "NO 21 ADIO STREET OFF SHOGBAMU STREET APELEHIN BARIGA LAGOS"
+            },
+            {
+                "name": "ADENEKAN ALFRED OLUWAGBENGA",
+                "address": "NO 21 ADIO STREET OFF SHOGBAMU STREET APELEHIN BARIGA LAGOS"
+            },
+            {
+                "name": "ADENEKAN DOMINIC ADEOLUWA",
+                "address": "NO 21 ADIO STREET OFF SHOGBAMU STREET APELEHIN BARIGA LAGOS"
+            }
+        ],
+        "shareholders": [
+            {
+                "name": "ADENEKAN CLEMENT OLUFEMI",
+                "shares": "400,000"
+            },
+            {
+                "name": "ADENEKAN ELIZABETH TEMITAYO",
+                "shares": "400,000"
+            },
+            {
+                "name": "ADENEKAN MARY MOYOSOREOLUWA",
+                "shares": "400,000"
+            },
+            {
+                "name": "ADENEKAN ALFRED OLUWAGBENGA",
+                "shares": "400,000"
+            },
+            {
+                "name": "ADENEKAN DOMINIC ADEOLUWA",
+                "shares": "400,000"
+            }
+        ],
+        "company_sec": null
+    }
+]

@@ -1,0 +1,11 @@
+4. Run the Application
+
+To start the GUI:
+
+python gui_app.py
+
+5. Packaging the Application
+
+Use PyInstaller to bundle your project, including the GUI, into a single executable:
+
+pyinstaller --onefile gui_app.py

@@ -18,7 +18,7 @@ def generate_html(entry):
 
         # Generate HTML report
         html_report = render_template(entry, category)
-        report_name = entry.get('company_name', 'report').replace(" ", "_")
+        report_name = entry.get('company_name', 'report').replace(" ", "_").replace(':', '_').replace("'", '_').replace("-","_")
         save_html_report(html_report, report_name)
         
         return report_name  # Return the report name for future PDF generation

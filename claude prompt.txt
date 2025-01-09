@@ -1,0 +1,23 @@
+Please format business registration data into JSON with these specifications:
+
+Required fields for all entries:
+- id (use sequential numbering)
+- company_name
+- registration_number 
+- category (business/company/partnership/guarantee/trustee)
+- registered_address
+- incorporation_date (format as YYYY-MM-DD)
+- main_object
+
+Category-specific fields:
+- Business: proprietors array with name/address
+- Company: directors array with name/address, shareholders array with name/shares, share_capital (with commas), company_sec
+- Partnership: partners array with name/address
+- Guarantee: directors array with name/address, company_sec
+- Trustee: trustees array with name/address, trustee_sec
+
+Notes:
+- Format share amounts with commas (e.g., 1,000,000)
+- If address is missing for any person, use company's registered address
+- Return as a JSON array
+

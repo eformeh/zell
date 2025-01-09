@@ -5,6 +5,8 @@ from multiprocessing import Pool
 from scripts.data_loader import load_data
 from scripts.report_generator import render_template, save_html_report
 from scripts.pdf_generator import html_to_pdf
+from gui import ReportGeneratorApp  # Import the GUI class
+import tkinter as tk
 
 logging.basicConfig(filename='process.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -18,7 +20,7 @@ def generate_html(entry):
 
         # Generate HTML report
         html_report = render_template(entry, category)
-        report_name = entry.get('company_name', 'report').replace(" ", "_").replace(':', '_').replace("'", '_').replace("-","_")
+        report_name = entry.get('company_name', 'report').replace(" ", "_").replace(':', '_').replace("'", '_').replace("-","_").replace("/","_")
         save_html_report(html_report, report_name)
         
         return report_name  # Return the report name for future PDF generation
@@ -65,4 +67,7 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    # Launch the GUI
+    root = tk.Tk()
+    app = ReportGeneratorApp(root)
+    root.mainloop()

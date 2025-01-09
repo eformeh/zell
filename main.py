@@ -45,7 +45,9 @@ def generate_pdf(report_name):
 def main():
     # Load all data from JSON file
     raw_data_path = 'data/raw_data.json'
-    data = load_data(raw_data_path)
+    prompt_file_path = 'barr james chatgpt prompt for  json formatted data.txt'
+    openai_api_key = os.getenv('OPENAI_API_KEY')  # Ensure your OpenAI API key is set in the environment variables
+    data = load_data(raw_data_path, prompt_file_path, openai_api_key)
 
     # Ensure data is a list of entries
     if not isinstance(data, list):

@@ -1,3 +1,5 @@
+# this was my previous version of the code that was used to convert HTML to PDF using pdfkit. 
+
 import pdfkit
 import os
 from config.settings import OUTPUT_HTML_DIR, OUTPUT_PDF_DIR, PDFKIT_OPTIONS
@@ -30,3 +32,4 @@ def html_to_pdf(html_file, output_pdf_name):
         raise RuntimeError(f"An error occurred while accessing files for PDF conversion: {e}")
     except Exception as e:
         raise RuntimeError(f"An unexpected error occurred while converting HTML to PDF: {e}")
+

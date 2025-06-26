@@ -1,3 +1,4 @@
+# Updated report_generator.py
 from jinja2 import Environment, FileSystemLoader, TemplateNotFound
 import os
 from config.settings import TEMPLATES_DIR, OUTPUT_HTML_DIR
@@ -5,7 +6,7 @@ from config.settings import TEMPLATES_DIR, OUTPUT_HTML_DIR
 def render_template(data, category):
     """
     Renders an HTML report using Jinja2 based on the data and category.
-    :param data: Dictionary containing data to populate the template
+    :param data: Dictionary containing data to populate the template (now includes date info)
     :param category: The type of entity (e.g., 'company', 'business')
     :return: Rendered HTML as a string
     """
@@ -33,9 +34,8 @@ def save_html_report(html_content, report_name):
     :param report_name: The name for the output HTML file
     """
     output_path = os.path.join(OUTPUT_HTML_DIR, f"{report_name}.html")
-    
     try:
-        with open(output_path, 'w') as file:
+        with open(output_path, 'w', encoding='utf-8') as file:
             file.write(html_content)
         print(f"HTML report generated: {output_path}")
     except OSError as e:

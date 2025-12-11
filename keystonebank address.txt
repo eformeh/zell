@@ -1,0 +1,24 @@
+keystone Bank
+
+<div class="letter-address">
+    <p> 6th February 2025</p>
+    <p>The Branch Service Manager</p>
+    <p>Head Office Branch</p>
+    <p><strong>Keystone Bank Ltd</strong></p>
+    <p>1, Keystone Bank Crescent</p>
+    <p>Victoria Island</p>
+    <p>Lagos State</p>
+</div>
+
+
+
+providus Bank
+
+<div class="letter-address">
+    <p> 29th January 2025</p>
+    <p>The Branch Service Manager</p>
+    <p><strong>Providus Bank Plc</strong></p>
+    <p>724 Adetokunbo Ademola Street</p>
+    <p>Victoria Island</p>
+    <p>Lagos State</p>
+</div>

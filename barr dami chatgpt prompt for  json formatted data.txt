@@ -1,0 +1,53 @@
+Please format the following data as JSON:
+
+Format: JSON
+
+Category: Specify whether the entity is a business company, business name, or company.
+
+Fields:
+
+id
+company_name
+registration_number
+category ("business name"/"company")
+registered_address
+incorporation_date
+main_object
+share_capital (for company)
+proprietors (for business name) or directors (for company)
+company_sec (for company) or trustee_sec (for trustee)
+shareholders (for company)
+Detailed Constraints:
+
+For business names, include proprietors as an array of objects with name and address.
+For companies, include directors as an array of objects with name and address as well as shareholders as an array of objects with name and shares. The shares and share_capital should be numeric, formatted with commas (e.g., "1 million" becomes "1,000,000").
+If an address is missing, use the company's registered address for the proprietors, directors, or shareholders.
+Here is the data:
+
+Company Example:
+
+Company Name: TOTAL MAINTENANCE OIL AND GAS LTD
+Registration Number: 7402985
+Category: company
+Registered Address: OMOSENIDE AGBAJE STREET, IKORODU, Lagos
+Incorporation Date: MAR 18, 2024
+Main Object: oil and gas services
+Share Capital: 1 million
+Shareholders:
+Name: VICTOR CHINEDUM MORDI
+Shares: 1 million
+Directors:
+Name: VICTOR CHINEDUM MORDI
+Address: OMOSENIDE AGBAJE STREET, IKORODU, Lagos
+Company Secretary: Nil
+Business Name Example:
+
+Company Name: PITA BOUTROS
+Registration Number: 2910349
+Category: business
+Registered Address: 11, EYO STREET PALMGROVE, SHOMOLU, LAGOS
+Incorporation Date: JUN 20, 2019
+Main Object: To run boutiques, fashion centers, and exhibitions
+Proprietor:
+Name: PETERS PETER CHINONYEREM
+Address: 11, EYO STREET PALMGROVE, SHOMOLU, LAGOS

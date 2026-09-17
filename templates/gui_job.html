@@ -1,0 +1,12 @@
+{% extends "gui_base.html" %}
+{% block title %}Generating reports - CAC Reports{% endblock %}
+{% block content %}
+<div class="job-view" data-job-id="{{ job_id }}">
+    <p class="eyebrow">Report generation</p>
+    <h1 id="job-title">Preparing your run</h1>
+    <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+    <div class="progress-meta"><span id="job-stage">Queued</span><strong id="job-count">0 / {{ job.total }}</strong></div>
+    <div id="job-result"></div>
+</div>
+{% endblock %}
+{% block scripts %}<script>window.CAC_JOB_ID = {{ job_id | tojson }};</script>{% endblock %}

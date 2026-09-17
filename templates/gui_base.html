@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}CAC Reports{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/gui.css') }}">
+</head>
+<body class="app-shell">
+    <header class="topbar">
+        <a class="brand" href="{{ url_for('home') }}">
+            <img src="{{ url_for('static', filename='images/logo.jpg') }}" alt="">
+            <span>CAC Reports</span>
+            <small>V3</small>
+        </a>
+        <nav>
+            <a href="{{ url_for('home') }}">New run</a>
+            <a href="{{ url_for('run_history') }}">Run history</a>
+        </nav>
+    </header>
+    <main class="workspace">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+            <div class="flash-stack">
+                {% for category, message in messages %}
+                <div class="flash flash-{{ category }}">{{ message }}</div>
+                {% endfor %}
+            </div>
+            {% endif %}
+        {% endwith %}
+        {% block content %}{% endblock %}
+    </main>
+    <script src="{{ url_for('static', filename='js/gui.js') }}"></script>
+    {% block scripts %}{% endblock %}
+</body>
+</html>

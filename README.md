@@ -2,6 +2,16 @@
 
 This project converts structured registration text into validated JSON, previews issues in the terminal, and generates organized HTML and PDF search reports.
 
+## V3 browser interface
+
+Start the local application:
+
+```powershell
+.\venv\Scripts\python.exe app.py
+```
+
+Open `http://127.0.0.1:5000`. The interface supports TXT/JSON uploads, recipient and date settings, validation filters, record editing, live report previews, background generation progress, and run history. It binds only to the local computer.
+
 ## Recommended command
 
 ```powershell

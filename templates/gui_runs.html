@@ -1,0 +1,16 @@
+{% extends "gui_base.html" %}
+{% block title %}Run history - CAC Reports{% endblock %}
+{% block content %}
+<div class="page-heading"><div><p class="eyebrow">Archive</p><h1>Run history</h1></div><a class="button button-primary" href="{{ url_for('home') }}">New run</a></div>
+<div class="run-list">
+{% for run in runs %}
+    <a class="run-row" href="{{ url_for('run_detail', run_name=run.folder_name) }}">
+        <span><strong>{{ run.folder_name }}</strong><small>{{ run.created_at }}</small></span>
+        <span><strong>{{ run.approved_records }}</strong><small>records</small></span>
+        <span><strong>{{ run.html_generated }}</strong><small>HTML</small></span>
+        <span><strong>{{ run.pdf_generated }}</strong><small>PDF</small></span>
+        <span class="badge {{ 'badge-error' if run.failures else 'badge-success' }}">{{ run.failures | length }} failures</span>
+    </a>
+{% else %}<div class="empty-state">No completed runs yet.</div>{% endfor %}
+</div>
+{% endblock %}

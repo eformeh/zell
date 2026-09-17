@@ -1,0 +1,11 @@
+{% extends "gui_base.html" %}
+{% block title %}{{ run_name }} - CAC Reports{% endblock %}
+{% block content %}
+<div class="page-heading"><div><p class="eyebrow">Completed run</p><h1>{{ run_name }}</h1><p>{{ summary.created_at }}</p></div><a class="button" href="{{ url_for('run_history') }}">Back to history</a></div>
+<div class="metrics-bar"><div><strong>{{ summary.approved_records }}</strong><span>Records</span></div><div><strong>{{ summary.html_generated }}</strong><span>HTML</span></div><div><strong>{{ summary.pdf_generated }}</strong><span>PDF</span></div><div class="{{ 'metric-error' if summary.failures else '' }}"><strong>{{ summary.failures|length }}</strong><span>Failures</span></div><div><strong>{{ summary.edits|length }}</strong><span>Edits</span></div></div>
+<div class="artifact-grid">
+    <section class="panel"><div class="section-heading plain"><div><h2>PDF reports</h2></div></div><div class="file-list">{% for file in pdf_files %}<a href="{{ url_for('run_artifact', run_name=run_name, kind='pdf', filename=file) }}">{{ file }}</a>{% else %}<span>No PDFs generated.</span>{% endfor %}</div></section>
+    <section class="panel"><div class="section-heading plain"><div><h2>HTML reports</h2></div></div><div class="file-list">{% for file in html_files %}<a target="_blank" href="{{ url_for('run_artifact', run_name=run_name, kind='html', filename=file) }}">{{ file }}</a>{% else %}<span>No HTML generated.</span>{% endfor %}</div></section>
+</div>
+<section class="panel"><div class="section-heading plain"><div><h2>Run data</h2></div></div><div class="file-list horizontal"><a href="{{ url_for('run_artifact', run_name=run_name, kind='data', filename='normalized.json') }}">Normalized JSON</a><a href="{{ url_for('run_artifact', run_name=run_name, kind='data', filename='edits.json') }}">Edit audit</a><a href="{{ url_for('run_artifact', run_name=run_name, kind='data', filename='report_settings.json') }}">Report settings</a></div></section>
+{% endblock %}

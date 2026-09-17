@@ -1,0 +1,64 @@
+{% extends "gui_base.html" %}
+{% block title %}Review records - CAC Reports{% endblock %}
+{% block content %}
+<div class="page-heading sticky-heading">
+    <div>
+        <p class="eyebrow">{{ state.input_name }}</p>
+        <h1>Review records</h1>
+    </div>
+    <div class="heading-actions">
+        {% if counts.errors and ai_ready %}
+        <form action="{{ url_for('review_with_ai', draft_id=state.id) }}" method="post"><button class="button" type="submit">Review errors with AI</button></form>
+        {% endif %}
+        <form action="{{ url_for('generate_draft', draft_id=state.id) }}" method="post">
+            <label class="inline-check"><input type="checkbox" name="no_pdf"> HTML only</label>
+            <button class="button button-primary" type="submit" {% if counts.errors %}disabled title="Resolve or skip errors first"{% endif %}>Generate {{ counts.active }} reports</button>
+        </form>
+    </div>
+</div>
+
+<div class="metrics-bar">
+    <div><strong>{{ counts.records }}</strong><span>Total</span></div>
+    <div><strong>{{ counts.active }}</strong><span>Active</span></div>
+    <div><strong>{{ counts.warnings }}</strong><span>Warnings</span></div>
+    <div class="{{ 'metric-error' if counts.errors else '' }}"><strong>{{ counts.errors }}</strong><span>Errors</span></div>
+    <div><strong>{{ counts.skipped }}</strong><span>Skipped</span></div>
+</div>
+
+<div class="table-tools">
+    <input class="search-input" type="search" placeholder="Search records" data-table-search="records-table">
+    <div class="segmented" data-table-filter="records-table">
+        <button type="button" class="active" data-filter="all">All</button>
+        <button type="button" data-filter="ready">Ready</button>
+        <button type="button" data-filter="warning">Warnings</button>
+        <button type="button" data-filter="error">Errors</button>
+        <button type="button" data-filter="skipped">Skipped</button>
+    </div>
+</div>
+
+<div class="data-table-wrap">
+<table class="data-table" id="records-table">
+    <thead><tr><th>ID</th><th>Entity</th><th>Category</th><th>Registration</th><th>Status</th><th></th></tr></thead>
+    <tbody>
+    {% for record in state.records %}
+        {% set record_issues = issues.get(record.id|string, []) %}
+        {% set is_skipped = record.id|int in skipped %}
+        {% set has_error = record_issues | selectattr('severity', 'equalto', 'error') | list | length > 0 %}
+        {% set row_status = 'skipped' if is_skipped else 'error' if has_error else 'warning' if record_issues else 'ready' %}
+        <tr data-status="{{ row_status }}" class="{{ 'row-muted' if is_skipped else '' }}">
+            <td class="id-cell">{{ record.id }}</td>
+            <td><strong>{{ record.company_name }}</strong>{% if record_issues %}<small>{{ record_issues[0].message }}</small>{% endif %}</td>
+            <td><span class="category-label">{{ record.category }}</span></td>
+            <td>{{ record.registration_number }}</td>
+            <td><span class="badge badge-{{ row_status }}">{{ row_status }}</span>{% if record_issues|length > 1 %}<small>+{{ record_issues|length - 1 }} more</small>{% endif %}</td>
+            <td class="row-actions">
+                <a class="button button-small" href="{{ url_for('edit_record', draft_id=state.id, record_id=record.id) }}">Edit</a>
+                <a class="icon-link" href="{{ url_for('preview_record', draft_id=state.id, record_id=record.id) }}" target="_blank" title="Preview report">Preview</a>
+                <form action="{{ url_for('toggle_skip', draft_id=state.id, record_id=record.id) }}" method="post"><button class="link-button" type="submit">{{ 'Restore' if is_skipped else 'Skip' }}</button></form>
+            </td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+</div>
+{% endblock %}

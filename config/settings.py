@@ -10,6 +10,7 @@ OUTPUT_HTML_DIR = PROJECT_ROOT / 'reports' / 'html'
 OUTPUT_PDF_DIR = PROJECT_ROOT / 'reports' / 'pdf'
 REPORT_SETTINGS_FILE = PROJECT_ROOT / 'config' / 'report_settings.json'
 RUNS_DIR = PROJECT_ROOT / 'reports' / 'runs'
+DRAFTS_DIR = PROJECT_ROOT / 'reports' / 'drafts'
 
 
 def load_report_settings():

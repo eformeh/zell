@@ -1,0 +1,69 @@
+{% extends "gui_base.html" %}
+{% block title %}Edit {{ record.company_name }} - CAC Reports{% endblock %}
+{% block content %}
+<div class="page-heading">
+    <div><p class="eyebrow">Record {{ record.id }} · {{ record.category }}</p><h1>Edit record</h1></div>
+    <a class="button" href="{{ url_for('review_draft', draft_id=state.id) }}">Back to review</a>
+</div>
+
+{% if record_issues %}
+<div class="issue-strip">
+    {% for issue in record_issues %}<span class="badge badge-{{ issue.severity }}">{{ issue.message }}</span>{% endfor %}
+</div>
+{% endif %}
+
+<form method="post" class="record-form">
+    <section class="panel">
+        <div class="section-heading plain"><div><h2>Registration details</h2></div></div>
+        <div class="field-grid">
+            <label class="wide"><span>Entity name</span><input name="company_name" value="{{ record.company_name }}" required></label>
+            <label><span>Registration number</span><input name="registration_number" value="{{ record.registration_number }}" required></label>
+            <label><span>Incorporation date</span><input name="incorporation_date" value="{{ record.incorporation_date }}" required></label>
+            <label class="wide"><span>Registered address</span><textarea name="registered_address" rows="3" required>{{ record.registered_address }}</textarea></label>
+            <label class="wide"><span>Main object</span><textarea name="main_object" rows="5">{{ record.main_object }}</textarea></label>
+            {% if record.category == 'company' %}<label><span>Share capital</span><input name="share_capital" value="{{ record.share_capital }}" inputmode="numeric" required></label>{% endif %}
+        </div>
+    </section>
+
+    {% set role_map = {'business': 'proprietors', 'company': 'directors', 'partnership': 'partners', 'guarantee': 'directors', 'trustee': 'trustees'} %}
+    {% set role = role_map.get(record.category) %}
+    {% if role %}
+    <section class="panel repeat-section" data-repeat-section>
+        <div class="section-heading plain"><div><h2>{{ role | title }}</h2></div><button class="button button-small" type="button" data-add-row>Add</button></div>
+        <div data-rows>
+            {% for person in record.get(role, []) %}
+            <div class="repeat-row"><input name="{{ role }}_name" value="{{ person.name }}" placeholder="Name" required><input name="{{ role }}_address" value="{{ person.address }}" placeholder="Address" required><button type="button" class="remove-button" data-remove-row title="Remove">Remove</button></div>
+            {% endfor %}
+        </div>
+        <template><div class="repeat-row"><input name="{{ role }}_name" placeholder="Name" required><input name="{{ role }}_address" value="{{ record.registered_address }}" placeholder="Address" required><button type="button" class="remove-button" data-remove-row>Remove</button></div></template>
+    </section>
+    {% endif %}
+
+    {% if record.category == 'company' %}
+    <section class="panel repeat-section" data-repeat-section>
+        <div class="section-heading plain"><div><h2>Shareholders</h2><p>Capital: {{ record.share_capital }}</p></div><button class="button button-small" type="button" data-add-row>Add</button></div>
+        <div data-rows>{% for shareholder in record.shareholders %}<div class="repeat-row"><input name="shareholders_name" value="{{ shareholder.name }}" placeholder="Name" required><input name="shareholders_shares" value="{{ shareholder.shares }}" placeholder="Shares" inputmode="numeric"><button type="button" class="remove-button" data-remove-row>Remove</button></div>{% endfor %}</div>
+        <template><div class="repeat-row"><input name="shareholders_name" placeholder="Name" required><input name="shareholders_shares" placeholder="Shares" inputmode="numeric"><button type="button" class="remove-button" data-remove-row>Remove</button></div></template>
+    </section>
+    {% endif %}
+
+    {% if record.category == 'guarantee' %}
+    <section class="panel repeat-section" data-repeat-section>
+        <div class="section-heading plain"><div><h2>Guarantors</h2></div><button class="button button-small" type="button" data-add-row>Add</button></div>
+        <div data-rows>{% for person in record.guarantors %}<div class="repeat-row"><input name="guarantors_name" value="{{ person.name }}" placeholder="Name" required><input name="guarantors_address" value="{{ person.address }}" placeholder="Address" required><button type="button" class="remove-button" data-remove-row>Remove</button></div>{% endfor %}</div>
+        <template><div class="repeat-row"><input name="guarantors_name" placeholder="Name" required><input name="guarantors_address" value="{{ record.registered_address }}" placeholder="Address" required><button type="button" class="remove-button" data-remove-row>Remove</button></div></template>
+    </section>
+    {% endif %}
+
+    {% if record.category in ['company', 'guarantee', 'trustee'] %}
+        {% set secretary = record.trustee_sec if record.category == 'trustee' else record.company_sec %}
+        <section class="panel"><div class="section-heading plain"><div><h2>{{ 'Trustee' if record.category == 'trustee' else 'Company' }} secretary</h2></div></div><div class="field-grid"><label><span>Name</span><input name="secretary_name" value="{{ secretary.name if secretary else '' }}"></label><label><span>Address</span><input name="secretary_address" value="{{ secretary.address if secretary else record.registered_address }}"></label></div></section>
+    {% endif %}
+
+    <div class="form-actions sticky-actions">
+        <a class="button" href="{{ url_for('review_draft', draft_id=state.id) }}">Cancel</a>
+        <button class="button" type="submit" name="save_action" value="preview">Save and preview</button>
+        <button class="button button-primary" type="submit" name="save_action" value="review">Save record</button>
+    </div>
+</form>
+{% endblock %}

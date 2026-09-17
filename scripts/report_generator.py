@@ -8,7 +8,7 @@ from scripts.report_config import build_report_settings
 
 ENV = Environment(loader=FileSystemLoader(str(TEMPLATES_DIR)), autoescape=True)
 
-def render_template(data, category, report_settings=None):
+def render_template(data, category, report_settings=None, asset_uris=None):
     """
     Renders an HTML report using Jinja2 based on the data and category.
     :param data: Dictionary containing data to populate the template
@@ -36,6 +36,7 @@ def render_template(data, category, report_settings=None):
             'stamp_beside_uri': (STATIC_DIR / assets['stamp_beside']).resolve().as_uri(),
             'stamp_below_uri': (STATIC_DIR / assets['stamp_below']).resolve().as_uri(),
         })
+        context.update(asset_uris or {})
         html_output = template.render(context)
     except Exception as e:
         raise RuntimeError(f"An error occurred while rendering the template: {e}")

@@ -1,0 +1,63 @@
+{% extends "gui_base.html" %}
+{% block title %}New run - CAC Reports{% endblock %}
+{% block content %}
+<div class="page-heading">
+    <div>
+        <p class="eyebrow">New report run</p>
+        <h1>Prepare reports</h1>
+    </div>
+    <span class="status-dot {{ 'ready' if ai_ready else 'muted' }}">AI {{ 'ready' if ai_ready else 'not configured' }}</span>
+</div>
+
+<form class="form-layout" action="{{ url_for('create_draft') }}" method="post" enctype="multipart/form-data">
+    <section class="panel primary-panel">
+        <div class="section-heading">
+            <span class="step">1</span>
+            <div><h2>Source data</h2><p>TXT or normalized JSON</p></div>
+        </div>
+        <label class="dropzone" for="source_file">
+            <input id="source_file" name="source_file" type="file" accept=".txt,.json" required>
+            <span class="dropzone-title">Choose a source file</span>
+            <span id="file-name">No file selected</span>
+        </label>
+        <label class="toggle-row">
+            <input type="checkbox" name="use_ai" {% if not ai_ready %}disabled{% endif %}>
+            <span>Use AI fallback for structurally invalid records</span>
+        </label>
+    </section>
+
+    <section class="panel">
+        <div class="section-heading">
+            <span class="step">2</span>
+            <div><h2>Report details</h2><p>Applied to every selected record</p></div>
+        </div>
+        <div class="field-grid">
+            <label><span>Report date</span><input type="date" name="report_date" value="{{ today }}" required></label>
+            <label><span>Recipient title</span><input name="recipient_title" value="{{ defaults.recipient.title }}" required></label>
+            <label class="wide"><span>Bank or organization</span><input name="recipient_organization" value="{{ defaults.recipient.organization }}" required></label>
+            <label class="wide"><span>Branch address</span><textarea name="recipient_address" rows="4" required>{{ defaults.recipient.address_lines | join('\n') }}</textarea></label>
+            <label class="wide"><span>Salutation</span><input name="salutation" value="{{ defaults.recipient.salutation }}" required></label>
+        </div>
+    </section>
+
+    <div class="form-actions full-width">
+        <button class="button button-primary" type="submit">Validate records</button>
+    </div>
+</form>
+
+{% if runs %}
+<section class="recent-section">
+    <div class="section-heading plain"><div><h2>Recent runs</h2><p>Latest generated batches</p></div><a href="{{ url_for('run_history') }}">View all</a></div>
+    <div class="run-list compact">
+        {% for run in runs %}
+        <a class="run-row" href="{{ url_for('run_detail', run_name=run.folder_name) }}">
+            <span><strong>{{ run.folder_name }}</strong><small>{{ run.created_at }}</small></span>
+            <span>{{ run.approved_records }} records</span>
+            <span>{{ run.pdf_generated }} PDFs</span>
+            <span class="badge {{ 'badge-error' if run.failures else 'badge-success' }}">{{ run.failures | length }} failures</span>
+        </a>
+        {% endfor %}
+    </div>
+</section>
+{% endif %}
+{% endblock %}

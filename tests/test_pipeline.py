@@ -1,6 +1,6 @@
 import unittest
 
-from run import safe_filename
+from scripts.pipeline_service import safe_filename
 from scripts.report_config import format_report_date
 from scripts.terminal_editor import edit_record, review_flagged_records
 from scripts.validation import validate_records

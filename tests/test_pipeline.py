@@ -2,6 +2,7 @@ import unittest
 
 from run import safe_filename
 from scripts.report_config import format_report_date
+from scripts.terminal_editor import edit_record, review_flagged_records
 from scripts.validation import validate_records
 
 
@@ -42,6 +43,34 @@ class PipelineTests(unittest.TestCase):
         mismatch = [item for item in issues if item.code == "share_total_mismatch"]
         self.assertEqual(len(mismatch), 1)
         self.assertEqual(mismatch[0].severity, "warning")
+
+    def test_terminal_editor_records_scalar_change(self):
+        record = {"id": 2, "company_name": "Old Name", "category": "business"}
+        answers = iter(["1", "New Name", "b"])
+        changes = edit_record(record, input_fn=lambda _: next(answers), output_fn=lambda _: None)
+        self.assertEqual(record["company_name"], "New Name")
+        self.assertEqual(changes[0]["field"], "company_name")
+        self.assertEqual(changes[0]["original"], "Old Name")
+
+    def test_review_can_keep_warning(self):
+        record = {
+            "id": 3,
+            "company_name": "Trust",
+            "registration_number": "33",
+            "category": "trustee",
+            "registered_address": "Lagos",
+            "incorporation_date": "JAN 1, 2026",
+            "main_object": "",
+            "trustees": [{"name": "Trustee", "address": "Lagos"}],
+            "trustee_sec": None,
+        }
+        issues = validate_records([record])
+        approved, changes, cancelled = review_flagged_records(
+            [record], issues, input_fn=lambda _: "k", output_fn=lambda _: None
+        )
+        self.assertEqual(approved, [record])
+        self.assertEqual(changes, [])
+        self.assertFalse(cancelled)
 
 
 if __name__ == "__main__":

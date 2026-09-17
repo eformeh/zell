@@ -15,6 +15,7 @@ from scripts.convert_structured_data import convert, split_records
 from scripts.pdf_generator import convert_html_to_pdf
 from scripts.report_config import build_report_settings
 from scripts.report_generator import render_template, save_html_report
+from scripts.terminal_editor import review_flagged_records
 from scripts.validation import needs_ai_review, records_with_errors, validate_records
 
 
@@ -112,12 +113,27 @@ def approve(records, issues, assume_yes):
     if assume_yes:
         if invalid_ids:
             print(f"Skipping {len(invalid_ids)} invalid record(s); approving {len(valid)} valid record(s).")
-        return valid
-    if invalid_ids:
-        answer = input(f"\nGenerate {len(valid)} valid record(s) and skip {len(invalid_ids)} invalid record(s)? [y/N]: ").strip().lower()
-    else:
-        answer = input(f"\nGenerate all {len(records)} record(s)? [y/N]: ").strip().lower()
-    return valid if answer in {"y", "yes"} else []
+        return valid, []
+    if issues:
+        print("\nFlagged records can now be reviewed and corrected before generation.")
+        answer = input("[R]eview/edit, [G]enerate valid records as shown, or [Q]uit: ").strip().lower()
+        if answer in {"r", "review"}:
+            reviewed, changes, cancelled = review_flagged_records(records, issues)
+            if cancelled:
+                return [], changes
+            final_issues = validate_records(reviewed)
+            remaining_errors = records_with_errors(final_issues)
+            reviewed = [record for record in reviewed if record.get("id") not in remaining_errors]
+            if remaining_errors:
+                print(f"Skipping {len(remaining_errors)} record(s) that still contain errors.")
+            confirm = input(f"Generate {len(reviewed)} reviewed record(s)? [y/N]: ").strip().lower()
+            return (reviewed, changes) if confirm in {"y", "yes"} else ([], changes)
+        if answer in {"g", "generate"}:
+            confirm = input(f"Generate {len(valid)} valid record(s)? [y/N]: ").strip().lower()
+            return (valid, []) if confirm in {"y", "yes"} else ([], [])
+        return [], []
+    answer = input(f"\nGenerate all {len(records)} record(s)? [y/N]: ").strip().lower()
+    return (records, []) if answer in {"y", "yes"} else ([], [])
 
 
 def prepare_run_folder(root, run_name=None):
@@ -192,7 +208,8 @@ def main():
     if args.validate_only:
         return 1 if records_with_errors(issues) else 0
 
-    approved = approve(records, issues, args.yes)
+    initial_issues = issues
+    approved, edits = approve(records, issues, args.yes)
     if not approved:
         print("Generation cancelled; no output was created.")
         return 1
@@ -203,6 +220,7 @@ def main():
         "address_lines": args.recipient_address,
         "salutation": args.salutation,
     }
+    issues = validate_records(approved)
     report_settings = build_report_settings(args.date, recipient_overrides)
     run_dir = prepare_run_folder(args.output_root, args.run_name)
     shutil.copy2(args.input.resolve(), run_dir / "input" / args.input.name)
@@ -211,6 +229,9 @@ def main():
     )
     (run_dir / "data" / "report_settings.json").write_text(
         json.dumps(report_settings, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
+    )
+    (run_dir / "data" / "edits.json").write_text(
+        json.dumps(edits, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
     )
 
     html_results, pdfs, failures = generate_reports(approved, run_dir, report_settings, args.no_pdf)
@@ -221,7 +242,9 @@ def main():
         "approved_records": len(approved),
         "html_generated": len(html_results),
         "pdf_generated": len(pdfs),
+        "initial_validation_issues": [item.to_dict() for item in initial_issues],
         "validation_issues": [item.to_dict() for item in issues],
+        "edits": edits,
         "failures": failures,
     }
     (run_dir / "summary.json").write_text(json.dumps(summary, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")

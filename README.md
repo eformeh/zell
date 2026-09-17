@@ -33,7 +33,7 @@ Dates such as `today`, `2026-10-03`, and `03/10/2026` are automatically displaye
 
 ## Approval and validation
 
-The default workflow shows all errors and warnings before asking for approval. Blocking records are skipped; warnings remain visible but can be approved.
+The default workflow shows all errors and warnings before asking for approval. Choose `R` to review flagged records in the terminal. You can view or edit fields, add/edit/delete people and shareholders, keep an original warning, skip a record, or cancel the run. Every correction is written to `data/edits.json`, while the original input remains unchanged.
 
 Useful options:
 

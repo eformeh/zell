@@ -1,7 +1,12 @@
-# Path settings for templates, input, and output
-TEMPLATES_DIR = 'templates/'
-OUTPUT_HTML_DIR = 'reports/html/'
-OUTPUT_PDF_DIR = 'reports/pdf/'
+from pathlib import Path
+
+
+# Resolve paths from the project itself so generation works from any directory.
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+TEMPLATES_DIR = PROJECT_ROOT / 'templates'
+STATIC_DIR = PROJECT_ROOT / 'static'
+OUTPUT_HTML_DIR = PROJECT_ROOT / 'reports' / 'html'
+OUTPUT_PDF_DIR = PROJECT_ROOT / 'reports' / 'pdf'
 
 # PDFKit options
 PDFKIT_OPTIONS = {

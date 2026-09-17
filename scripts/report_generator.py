@@ -1,6 +1,6 @@
 from jinja2 import Environment, FileSystemLoader, TemplateNotFound
 import os
-from config.settings import TEMPLATES_DIR, OUTPUT_HTML_DIR
+from config.settings import TEMPLATES_DIR, STATIC_DIR, OUTPUT_HTML_DIR
 
 def render_template(data, category):
     """
@@ -20,7 +20,15 @@ def render_template(data, category):
         raise RuntimeError(f"An error occurred while loading the template: {e}")
     
     try:
-        html_output = template.render(data)
+        context = dict(data)
+        context.update({
+            'stylesheet_uri': (STATIC_DIR / 'css' / 'styles.css').as_uri(),
+            'logo_uri': (STATIC_DIR / 'images' / 'logo.jpg').as_uri(),
+            'signature_uri': (STATIC_DIR / 'images' / 'signature.jpg').as_uri(),
+            'stamp_beside_uri': (STATIC_DIR / 'images' / 'stamp2.png').as_uri(),
+            'stamp_below_uri': (STATIC_DIR / 'images' / 'stamp1.png').as_uri(),
+        })
+        html_output = template.render(context)
     except Exception as e:
         raise RuntimeError(f"An error occurred while rendering the template: {e}")
     

@@ -99,11 +99,37 @@ td:nth-child(2) {
 }
 
 /* Signature block styling */
+footer {
+    page-break-inside: avoid;
+}
+
+.signature-row {
+    margin-top: 12px;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+}
+
 .signature {
-    display: block;
+    display: inline-block;
     width: 100px;
     height: auto;
-    margin-top: 20px;
+    margin-right: 18px;
+    vertical-align: middle;
+}
+
+.stamp-beside {
+    display: block;
+    float: right;
+    width: 145px;
+    height: auto;
+}
+
+.stamp-below {
+    display: block;
+    width: 115px;
+    height: auto;
+    margin-top: 8px;
 }
 
 /* List styles inside the table */

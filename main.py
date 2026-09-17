@@ -62,7 +62,7 @@ def main():
                 report_names.append(result)
 
     # Second phase: PDF generation (multiprocessing)
-    with Pool(processes=4) as pool:  # Adjust the number of processes based on available CPU cores
+    with Pool(processes=6) as pool:  # Adjust the number of processes based on available CPU cores
         pool.map(generate_pdf, report_names)
 
 

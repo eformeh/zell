@@ -176,8 +176,12 @@ def parse_trustee(record_id, name, lines):
     registration = lines[0]
     date_index, date = find_date(lines)
     address = clean(" ".join(lines[2:date_index]))
-    trustee_index = marker_index(lines, r"^Trustees?$")
-    names = [re.sub(r"^\d+\s+", "", line) for line in lines[trustee_index + 1:]]
+    trustee_index = marker_index(lines, r"^Trustees?(?: Details)?$")
+    trustee_lines = lines[trustee_index + 1:]
+    trustees = parse_named_people(trustee_lines, address)
+    if not trustees:
+        names = [re.sub(r"^\d+\s+", "", line) for line in trustee_lines]
+        trustees = [{"name": trustee, "address": address} for trustee in names]
     return {
         "id": record_id,
         "company_name": name,
@@ -186,7 +190,7 @@ def parse_trustee(record_id, name, lines):
         "registered_address": address,
         "incorporation_date": date,
         "main_object": "",
-        "trustees": [{"name": trustee, "address": address} for trustee in names],
+        "trustees": trustees,
         "trustee_sec": None,
     }
 

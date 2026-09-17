@@ -4,21 +4,20 @@
            
         </div>
         <div class="company-info">
-            <h1> <img src="{{ logo_uri }}" alt="Logo" class="logo"> IRENE BELLO & CO</h1>
-            <p>Advocates, Solicitors, Arbitrators, Property/Investment & Corporate Consultants</p>
+            <h1> <img src="{{ logo_uri }}" alt="Logo" class="logo"> {{ report.firm.name }}</h1>
+            <p>{{ report.firm.services }}</p>
         </div>
     </div>
 
     <div class="company-details">
-        <h4>CHAMBERS</h4>
-        <p>41/42 Ago Place Way</p>
-        <p>Triangle Plaza, First Floor</p>
-        <p>Tarred Road Bus Stop,</p>
-        <p>Okota, Lagos, Nigeria</p>
+        <h4>{{ report.firm.office_heading }}</h4>
+        {% for line in report.firm.address_lines %}
+        <p>{{ line }}</p>
+        {% endfor %}
     </div>
 
     <div class="contact-info">
-        <p><strong>Tel:</strong> 08033701111, 08125768506 <strong>Email:</strong> irenebello@live.com</p>
+        <p><strong>Tel:</strong> {{ report.firm.phones | join(', ') }} <strong>Email:</strong> {{ report.firm.email }}</p>
         
     </div>
 </header>

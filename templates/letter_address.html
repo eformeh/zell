@@ -1,0 +1,10 @@
+<div class="letter-address">
+    <p>{{ report.report_date }}</p>
+    <p>{{ report.recipient.title }}</p>
+    <p><strong>{{ report.recipient.organization }}</strong></p>
+    {% for line in report.recipient.address_lines %}
+    <p>{{ line }}</p>
+    {% endfor %}
+</div>
+
+<p><strong>{{ report.recipient.salutation }}</strong></p>

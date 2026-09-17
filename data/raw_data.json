@@ -1377,17 +1377,17 @@
     "share_capital": "1,000,000",
     "directors": [
       {
-        "name": "IJISAN REBECCA TEMITOPE",
+        "name": "IJISAN REBECCА ТЕМITOPE",
         "address": "IGBEYINADUN STREET OFF ISAWO ROAD AGRIC IKORODU , LAGOS,"
       }
     ],
     "company_sec": {
-      "name": "IJISAN REBECCA TEMITOPE",
+      "name": "IJISAN REBECCА ТЕМITOPE",
       "address": "IGBEYINADUN STREET OFF ISAWO ROAD AGRIC IKORODU , LAGOS"
     },
     "shareholders": [
       {
-        "name": "REBECCA IJISAN",
+        "name": "REBECCА IJISAN",
         "shares": "1,000,000"
       }
     ]
@@ -1687,7 +1687,20 @@
     "registered_address": "8A WALE ADELEKAN, MAGODO SHANGISHA, IKOSI KETU, LAGOS",
     "incorporation_date": "JAN 31, 2026",
     "main_object": "",
-    "trustees": [],
+    "trustees": [
+      {
+        "name": "ONYEKWERE OSITA DANIEL",
+        "address": "8A WALE ADELEKAN, MAGODO SHANGISHA, IKOSI KETU,, LAGOS"
+      },
+      {
+        "name": "FEYI-AKINBILE AYODAMOLA ODUNAYO",
+        "address": "8A WALE ADELEKAN, MAGODO SHANGISHA, IKOSI KETU, LAGOS"
+      },
+      {
+        "name": "AGBI WINNIFRED OKWAVIE",
+        "address": "AN ANNUAL GENERAL MEETING (AGM) IS HELD TO HAVE AN INTERACTION BETWEEN THE MANAGEMENT OF AND THE MEMBERS OF THE FOUNDATION. THIS IS HELD DECEMBER 20 TH ANNUALLY., LAGOS"
+      }
+    ],
     "trustee_sec": null
   },
   {

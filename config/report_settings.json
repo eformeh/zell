@@ -1,0 +1,39 @@
+{
+  "report_date": "today",
+  "recipient": {
+    "title": "The Branch Service Manager",
+    "organization": "Providus Bank Plc",
+    "address_lines": [
+      "724 Adetokunbo Ademola Street",
+      "Victoria Island",
+      "Lagos State"
+    ],
+    "salutation": "Dear Sir/Ma,"
+  },
+  "firm": {
+    "name": "IRENE BELLO & CO",
+    "services": "Advocates, Solicitors, Arbitrators, Property/Investment & Corporate Consultants",
+    "office_heading": "CHAMBERS",
+    "address_lines": [
+      "41/42 Ago Place Way",
+      "Triangle Plaza, First Floor",
+      "Tarred Road Bus Stop,",
+      "Okota, Lagos, Nigeria"
+    ],
+    "phones": ["08033701111", "08125768506"],
+    "email": "irenebello@live.com",
+    "signatory_name": "James Oyebade Esq."
+  },
+  "assets": {
+    "logo": "images/logo.jpg",
+    "signature": "images/signature.jpg",
+    "stamp_beside": "images/stamp2.png",
+    "stamp_below": "images/stamp1.png"
+  },
+  "generation": {
+    "html_workers": 4,
+    "pdf_workers": 2,
+    "pdf_retries": 2,
+    "wkhtmltopdf_path": "C:\\Program Files\\wkhtmltopdf\\bin\\wkhtmltopdf.exe"
+  }
+}

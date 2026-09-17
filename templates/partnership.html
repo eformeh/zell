@@ -1,16 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
 <hr>
-<div class="letter-address">
-    <p> 16th September 2026</p>
-    <p>The Branch Service Manager</p>
-    <p><strong>Providus Bank Plc</strong></p>
-    <p>724 Adetokunbo Ademola Street</p>
-    <p>Victoria Island</p>
-    <p>Lagos State</p>
-</div>
-
-    <p><strong>Dear Sir/Ma,</strong></p>
+{% include "letter_address.html" %}
     
     <div style="border-bottom: 1px solid #F1F1F5; margin-bottom: 10px;">
         <p><strong class="underline">SEARCH REPORT ON {{ company_name }}</strong></p>
@@ -22,7 +13,7 @@
     <table>
         <tr>
             <td><strong>Date of Search:</strong></td>
-            <td>16th September 2026</td>
+            <td>{{ report.report_date }}</td>
         </tr>
         <tr>
             <td><strong>Name of Company:</strong></td>
